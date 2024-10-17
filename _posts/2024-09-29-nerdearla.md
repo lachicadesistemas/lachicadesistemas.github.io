@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 author: Alexia
-#hidden: true
+hidden: true
 ---
 
 Entre el 26 y el 28 de septiembre se llevó a cabo la décima edición de Nerdearla, el evento nerd más esperado del año.
