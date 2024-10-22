@@ -15,16 +15,18 @@ author: Alexia
 ### El Drama con Automattic (Wordpress)
 
 En estos momentos hay un litigio legal de por medio entre Automattic, la compañía detrás de Wordpress debido a derechos de 
-marca y si bien, las personas que están utilizando wordpress, al menos el de _wordpress.org_ de 
+marca y  WP Engine, una empresa que hace tiempo viene ordeñando al proyecto de código libre Wordpress. Si bien, las personas que están utilizando wordpress, al menos el de _wordpress.org_ de 
 _**Automattic**_ no corren riesgo de perder su software, el culebrón que se armó tiene muchos matíces, por ponerlo de algún 
 modo.
 
-En resúmen, una empresa (WP Engine) viene utilizando, ya desde hace tiempo, el código de Wordpress sin contribuir mucho ni con fondos ni 
-con recurso humano al proyecto wordpress. Lo que, bajo los terminos de la licencia libre de wordpress.org no es un delito, por 
+En resúmen, la empresa _**WP Engine**_ viene utilizando, ya desde hace tiempo, el código de Wordpress sin contribuir mucho, ni con fondos, ni 
+con recurso humano, al proyecto wordpress. Lo que, bajo los terminos de la licencia libre de wordpress.org, no es un delito por 
 más que eticamente no esté bien lucrar con codigo libre y no aportar en nada a su desarrollo.
 
 Asímismo, El problema se originó cuando Automattic, la empresa que tiene todos los derechos sobre Wordpress, inició una demanda
 contra WP Engine para que dejen de utilizar "WP" y otros símbolos que confunden a la gente. A WP Engine se le ofreció una licencia de uso de marca, la cual WP Engine debería pagar con regularidad a Automattic, o aumentar la contribución al proyecto libre y gratuito Wordpress.
+
+WP Engine se negó a pagar una licencia de uso de marca y tampoco aceptó contribuir más al proyecto open source wordpress.org a modo de compensación por servirse del codigo gratuito para hacer dinero.
 
 Matt Mullenweg, Dueño de Automattic, habló sobre el litigio durante la conferencia WorldCamp US, donde deslizó que WP Engine, que genera ganancias anuales por más de 400 millones de dolares, no aporta lo suficiente al proyecto open source Wordpress (Wordpress.org)
 
@@ -49,6 +51,8 @@ el equipo de wordpress.org respondió forkeando el plugin original y relanzandol
 (SCF)".
 
 El plugin original de WP Engine fue dado de baja sin justificaciones adicionales en wordpress.org
+
+Todo parece indicar que tanto Automattic como WP Engine quieren ir a fondo en esta escaramuza y no sabemos muy bien que resolverá la corte al respecto, todavía.
 
 
 Así que ahora conocen el culebrón. Yo no puedo tomar una posición al respecto, pero desde mi lugar, como voluntaria en
