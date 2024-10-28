@@ -4,7 +4,7 @@ title: WinAmp FOSS Sale Mal
 subtitle: A un mes de lanzarlo como Open Source, borraron el repo en GitHub. 
 #gh-repo: alexiarstein/bash
 #gh-badge: [star, fork, follow]
-cover-img: /assets/img/winamp1.jpg
+#cover-img: /assets/img/winamp1.jpg
 share-img: /assets/img/winamp1.jpg
 tags: [winamp, llama group, open source, github, chisme]
 comments: true
@@ -25,14 +25,14 @@ El código incluía partes de otros programas, como Shoutcast y codecs de Micros
 El código también incluía una licencia que no permitía a los desarrolladores crear versiones modificadas del programa. 
 La "Licencia" en cuestión, llamada _**WCL - Winamp Collaborative License 1.0**_ posee una cláusula que lee:
 
->> No Forking: You may not create, maintain, or distribute a forked version of the software.
+> No Forking: You may not create, maintain, or distribute a forked version of the software.
 
 La comunidad no tardó en encularse con esto, ya que esta supuesta licencia impedía forkear y realizar trabajos derivados, algo ilegal ya que parte del código de winAmp posee licencias GPL 2
 Haciendo que en realidad todo debería ser libre.
 
 Uno de los desarrolladores originales de winAmp, Justin Frankel, se manifestó en contra de esta licencia también, diciendo:
 
->> Cualquier deseo de contribuir al código fuente de winAmp acaba de extinguirse tras estos términos, lol (sic). Estos terminos son completamente absurdos de la forma que están escritos.
+> Cualquier deseo de contribuir al código fuente de winAmp acaba de extinguirse tras estos términos, lol (sic). Estos terminos son completamente absurdos de la forma que están escritos.
 
 La situación se complicó aún más cuando se descubrió que el código incluía partes de otros programas que no eran propiedad de Llama Group. La empresa intentó borrar el código, pero no lo 
 logró. La historia de WinAmp es un ejemplo de cómo no se debe hacer las cosas cuando se trata de código abierto. La empresa no se tomó el tiempo de limpiar el código y eliminar las partes que no 
