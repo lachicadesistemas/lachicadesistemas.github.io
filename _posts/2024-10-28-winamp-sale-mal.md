@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WinAmp FOSS Sale Mal
+title: WinAmp Open Source Sale Mal
 subtitle: A un mes de lanzarlo como Open Source, borraron el repo en GitHub. 
 #gh-repo: alexiarstein/bash
 #gh-badge: [star, fork, follow]
@@ -34,10 +34,17 @@ Uno de los desarrolladores originales de winAmp, Justin Frankel, se manifestó e
 
 > Cualquier deseo de contribuir al código fuente de winAmp acaba de extinguirse tras estos términos, lol (sic). Estos terminos son completamente absurdos de la forma que están escritos.
 
-La situación se complicó aún más cuando se descubrió que el código incluía partes de otros programas que no eran propiedad de Llama Group. La empresa intentó borrar el código, pero no lo 
-logró. La historia de WinAmp es un ejemplo de cómo no se debe hacer las cosas cuando se trata de código abierto. La empresa no se tomó el tiempo de limpiar el código y eliminar las partes que no 
-eran propiedad de ellos. Esto puede ser un problema para las empresas que quieren lanzar su código fuente. Es posible que la solución sea encontrar un benefactor que pueda financiar la limpieza del 
-código y eliminar las partes que no son propiedad de la empresa. Esto podría ser un proyecto interesante para los desarrolladores y podría ser una oportunidad para aprender.
+La situación se complicó aún más cuando se descubrió que el código incluía partes de otros programas que no eran propiedad de Llama Group.
 
+La empresa intentó borrar el código, pero no lo logró. Casi que podríamos decir que esto es un ejemplo de cómo no se deben hacer las cosas cuando se trata de código abierto.
+
+La empresa no se tomó el tiempo de limpiar el código y eliminar las partes que no eran de su propiedad. Esto puede ser un problema para las empresas que quieren lanzar su código fuente.
+
+Es posible que la solución sea encontrar un benefactor que pueda financiar la limpieza del código y eliminar las partes sobre las cuales no tengan permisos para compartirlo bajo una licencia libre.
+Esto podría ser un proyecto interesante para los desarrolladores y una oportunidad para aprender.
+
+
+
+Fuente: The Register
 
 
