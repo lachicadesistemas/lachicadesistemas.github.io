@@ -20,7 +20,7 @@
   <button onclick="calculate()">Calcular</button>
   <p id="result"></p>
 
-  <script>
+  <!-- script>
     function calculate() {
       const money = parseFloat(document.getElementById('money').value);
       const result = money * 175;
@@ -28,6 +28,28 @@
       const total = result + taxes;
       document.getElementById('result').innerHTML = `Valor multiplicado por 175: pesos $ ${result.toFixed(2)}<br>Impuestos (51%): $ ${taxes.toFixed(2)}<br>Total en el resumen de cabal en pesos: $ ${total.toFixed(2)}`;
     }
-  </script>
+  </script -->
+
+<script>
+  function calculate() {
+    const money = parseFloat(document.getElementById('money').value);
+    const result = money * 175;
+    const ivaServiciosDigitales = result * 0.21;
+    const percepcionRgAfip = result * 0.30;
+    const leyImpuestoPais = result * 0.08;
+    const impuestosProvinciales = result * 0.02;
+    const totalImpuestos = ivaServiciosDigitales + percepcionRgAfip + leyImpuestoPais + impuestosProvinciales;
+    const total = result + totalImpuestos;
+    document.getElementById('result').innerHTML = `Valor multiplicado por 175: pesos $ ${result.toFixed(2)}<br>
+      <h3>Impuestos (61%):</h3>
+        IVA Servicios Digitales (21%): $ ${ivaServiciosDigitales.toFixed(2)}<br>
+        Percepcion RG AFIP 4815 (30%): $ ${percepcionRgAfip.toFixed(2)}<br>
+        Ley Impuesto PAIS (8%): $ ${leyImpuestoPais.toFixed(2)}<br>
+        Impuestos Provinciales (2%): $ ${impuestosProvinciales.toFixed(2)}<br>
+        Total Impuestos: $ ${totalImpuestos.toFixed(2)}<br/>
+      <h3>Total en el resumen de cabal en pesos: $ ${total.toFixed(2)}`;
+  }
+</script>
+
 </body>
 </html>
