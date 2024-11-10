@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Impostos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #result {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de reales a pesitos con imp</h1>
+  <label for="money">Valor en Reales:</label>
+  <input type="number" id="money" step="0.01">
+  <button onclick="calculate()">Calcular</button>
+  <p id="result"></p>
+
+  <script>
+    function calculate() {
+      const money = parseFloat(document.getElementById('money').value);
+      const result = money * 175;
+      const taxes = result * 0.51;
+      const total = result + taxes;
+      document.getElementById('result').innerHTML = `Valor multiplicado por 175: pesos  ${result.toFixed(2)}<br>Impuestos (51%): $ ${taxes.toFixed(2)}<br>Total en el resumen de cabal en pesos: ${total.toFixed(2)}`;
+    }
+  </script>
+</body>
+</html>
