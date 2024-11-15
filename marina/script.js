@@ -1,12 +1,12 @@
 const countdownElement = document.getElementById('countdown');
-const targetDate = new Date('2024-11-17T00:00:00');
+const targetDate = new Date('2024-11-19T00:00:00');
 
 function updateCountdown() {
   const now = new Date();
   const timeLeft = targetDate.getTime() - now.getTime();
 
   if (timeLeft <= 0) {
-    countdownElement.textContent = 'La fecha objetivo ha sido alcanzada';
+    countdownElement.textContent = 'Marinita está volviendo a su casita gatuna';
     return;
   }
 
