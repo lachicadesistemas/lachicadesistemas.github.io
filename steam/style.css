@@ -22,31 +22,6 @@ body {
   margin-bottom: 20px;
 }
 
-#steam-price {
-  width: 100px;
-  height: 30px;
-  font-size: 18px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-#calculate-button {
-  width: 100px;
-  height: 30px;
-  font-size: 18px;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#calculate-button:hover {
-  background-color: #3e8e41;
-}
 
 #result {
   font-size: 24px;
