@@ -1,14 +1,22 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
   margin-bottom: 20px;
+  color: #fff; /* Texto blanco */
 }
 
 #calculator-form {
   margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo translúcido */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 #steam-price {
@@ -18,6 +26,7 @@ h1 {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #fff; /* Fondo blanco */
 }
 
 #calculate-button {
@@ -40,4 +49,5 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
+  color: #fff; /* Texto blanco */
 }
