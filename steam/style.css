@@ -6,17 +6,20 @@ body {
   background-attachment: fixed;
 }
 
-h1 {
-  margin-bottom: 20px;
-  color: #fff; /* Texto blanco */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
 }
 
 #calculator-form {
   margin-bottom: 20px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.2); /* Fondo translúcido */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 #steam-price {
@@ -26,7 +29,7 @@ h1 {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff; /* Fondo blanco */
+  background-color: #fff;
 }
 
 #calculate-button {
@@ -49,5 +52,5 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
-  color: #fff; /* Texto blanco */
+  color: #fff;
 }
