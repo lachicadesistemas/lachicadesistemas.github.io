@@ -5,18 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de precios para juegos de Steam</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="purecss/pure-min.css">
 </head>
 <body>
   <div class="container">
     <h1>Calculadora de precios para juegos de Steam</h1>
-    <form id="calculator-form">
+    <form class="pure-form">
       <label for="steam-price">Precio en el Steam Store (En dolares)</label><br/>
       <input type="number" id="steam-price" required><br/><br/>
-      <button id="calculate-button">Calcular</button>
+      <button class="button-success pure-button" id="calculate-button">Calcular</button>
     </form>
     <p id="result"></p>
   </div>
   2024 - <a href="https://github.com/alexiarstein">Alexia Michelle</a> - Esto es software libre y hosteado en github.com
   <script src="script.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
