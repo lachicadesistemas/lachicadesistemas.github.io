@@ -9,7 +9,11 @@ La privacidad, tal como la conocemos, dejará de existir en un mediano plazo.
 
 ![¿En qué se convertirá la IA en el futuro?]({{ '/assets/img/machinelearning.jpg' | relative_url }})
 
-Antes de comenzar esta pequeña columna, creo conveniente aclarar el significado de algunos términos: ¿Qué significa Machine Learning? Machine Learning \(ML\) es un termino que se utiliza para especificar un tipo de inteligencia 
+Antes de comenzar esta pequeña columna, creo conveniente aclarar el significado de algunos términos: 
+
+### ¿Qué significa Machine Learning? 
+
+Machine Learning \(ML\) es un termino que se utiliza para especificar un tipo de inteligencia 
 artificial \(AI, por sus siglas en inglés, Artificial Intelligence\) Este software permite a aplicaciones ser mucho más autónomas y precisas al momento de predecir resultados sin estar recibiendo input de sus administradores o 
 desarrolladores de manera constante. 
 
@@ -24,14 +28,14 @@ Un uso práctico de la inteligencia artificial es la de decodificar otros espect
 adapta el resultado a las ondas que nuestros ojos son capaces de ver  \(nuestros ojos no son capaces de "ver" ni la "luz" ultravioleta ni la parte opuesta del espectro --la "luz" infrarroja--).
 
 
-##Machine Learning y la privacidad de las personas
+## Machine Learning y la privacidad de las personas
 
 Como todo avance científico, se requiere de un uso ético y transparente de todas estas tecnologías para que sus resultados no causen polémica o controversia entre los habitantes y, en algunos casos, 
 no representen una violación a leyes y tratados de derechos humanos Un software de reconocimiento facial capaz de predecir género, edad y estados de ánimo no es ni bueno ni malo, per se, pero esta herramienta, en manos de un 
 gobierno autoritario podría tener resultados catastróficos para la libre expresión: Imagínense que, del mismo modo que puede emplearse para combatir el crimen, lo que sería un uso ético y razonable de este tipo de tecnologías, 
 también podría emplearse para detectar, con lujo de detalles, los rostros y la demográfica a la que pertenecen actores que se manifiestan públicamente por tal o cual medida en un determinado país. 
 
-##Reconocimiento facial e identidades no binarias.
+## Reconocimiento facial e identidades no binarias.
 
  En estos últimos años, cada vez más países reconocen la no binariedad como una opción más de género en la documentación legal de las personas. En esta columna no voy a profundizar en esta medida sino 
 que pondré en evidencia el hecho que ningún software de reconocimiento facial es capaz de detectar una identidad de género "no binaria".  En líneas generales se puede decir que, a diferencia de las identidades trans binarias, 
