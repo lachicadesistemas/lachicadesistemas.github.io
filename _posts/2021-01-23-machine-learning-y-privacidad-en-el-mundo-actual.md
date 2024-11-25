@@ -31,7 +31,9 @@ adapta el resultado a las ondas que nuestros ojos son capaces de ver  \(nuestro
 ## Machine Learning y la privacidad de las personas
 
 Como todo avance científico, se requiere de un uso ético y transparente de todas estas tecnologías para que sus resultados no causen polémica o controversia entre los habitantes y, en algunos casos, 
-no representen una violación a leyes y tratados de derechos humanos Un software de reconocimiento facial capaz de predecir género, edad y estados de ánimo no es ni bueno ni malo, per se, pero esta herramienta, en manos de un 
+no representen una violación a leyes y tratados de derechos humanos.
+
+ Un software de reconocimiento facial capaz de predecir género, edad y estados de ánimo no es ni bueno ni malo, per se, pero esta herramienta, en manos de un 
 gobierno autoritario podría tener resultados catastróficos para la libre expresión: Imagínense que, del mismo modo que puede emplearse para combatir el crimen, lo que sería un uso ético y razonable de este tipo de tecnologías, 
 también podría emplearse para detectar, con lujo de detalles, los rostros y la demográfica a la que pertenecen actores que se manifiestan públicamente por tal o cual medida en un determinado país. 
 
