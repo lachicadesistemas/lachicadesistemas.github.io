@@ -43,13 +43,12 @@ Pero eso no sería todo. El modelo **DeepSeek V3** también arrasa en Aider Poly
 > - Entrenado con 14.8T de tokens de alta calidad
 > 
 > ¡Supera al Llama 3.1 405B en casi todas las pruebas!
-> [¡Mirá más aquí!](https://t.co/OiHu17hBSI) pic.twitter.com/jVwJU07dqf
-> — Chubby♨️ (@kimmonismus) 26 de diciembre de 2024
+> [Ver Tweet](https://t.co/OiHu17hBSI) 
 
 DeepSeek afirma que **DeepSeek V3** fue entrenado con un conjunto de datos de 14.8 billones de tokens. En ciencia de datos, los tokens representan partes de datos en bruto: 1 millón de tokens equivale a unas 750,000 palabras.
 
 No solo el conjunto de entrenamiento es enorme. **DeepSeek V3** tiene un tamaño impresionante: 671 mil millones de parámetros, o 685 mil millones en la plataforma de desarrollo de IA Hugging Face. (Los parámetros son las 
-variables internas que los modelos utilizan para hacer predicciones o decisiones). ¡Eso es alrededor de 1.6 veces el tamaño del Llama 3.1 405B, que tiene 405 mil millones de parámetros!
+variables internas que los modelos utilizan para hacer predicciones o decisiones). Que sería alrededor de 1.6 veces el tamaño del Llama 3.1 405B, que tiene 405 mil millones de parámetros.
 
 El conteo de parámetros a menudo (pero no siempre) se correlaciona con la habilidad; los modelos con más parámetros tienden a superar a los que tienen menos. Pero los modelos grandes también requieren hardware más potente para 
 funcionar. Una versión no optimizada de **DeepSeek V3** necesitaría un banco de GPUs de alta gama para responder preguntas a velocidades razonables.
