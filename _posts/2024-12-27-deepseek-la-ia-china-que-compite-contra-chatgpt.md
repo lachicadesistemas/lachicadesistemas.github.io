@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DeepSeek v3: la IA China y Open Source.
+title: La nueva IA China y Open Source.
 subtitle: el modelo es, cuanto menos, prometedor.
 gh-repo: alexiarstein/bash
 gh-badge: [star, fork, follow]
