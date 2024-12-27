@@ -1,15 +1,13 @@
 ---
 layout: post
-title: El nuevo modelo de IA Chino y Open Source parece ser uno de los mejores (..Hasta Ahora)
-subtitle: DeepSeek v3 es, cuanto menos, prometedor.
+title: DeepSeek v3: la IA China y Open Source.
+subtitle: el modelo es, cuanto menos, prometedor.
 gh-repo: alexiarstein/bash
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 author: Alexia
 ---
-
-# ¡El nuevo modelo de IA de DeepSeek parece ser uno de los mejores modelos Open Source (..Hasta Ahora)
 
 Un laboratorio chino ha creado lo que parece ser uno de los modelos de IA de código abierto más poderosos hasta la fecha.
 
