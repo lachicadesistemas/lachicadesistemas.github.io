@@ -1,13 +1,12 @@
 ---
 layout: post
-title: La nueva funcion mseal() en el Kernel Linux 6.10
-subtitle: ¡Tanto para aprender!
+title: El nuevo modelo de IA Chino y Open Source parece ser uno de los mejores (..Hasta Ahora)
+subtitle: DeepSeek v3 es, cuanto menos, prometedor.
 gh-repo: alexiarstein/bash
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 author: Alexia
-hidden: true
 ---
 
 # ¡El nuevo modelo de IA de DeepSeek parece ser uno de los mejores modelos Open Source (..Hasta Ahora)
