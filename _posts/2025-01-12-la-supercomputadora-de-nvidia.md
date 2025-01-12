@@ -7,12 +7,12 @@ author: Alexia
 ---
 
 En el CES 2025, Nvidia presentó **Project Digits**, su primera supercomputadora personal de IA. El auge de la inteligencia artificial generativa exige acceso a una nueva generación de CPUs y GPUs 
-para científicos de datos e ingenieros de IA que trabajan en modelos y soluciones de última generación. **Digits** está dirigido a desarrolladores y científicos de datos que buscan una plataforma 
+para personas dedicadas a la ciencia de datos  e ingenieros de IA que trabajan en modelos y soluciones de última generación. **Digits** está dirigido a esta clase de gente, aunque bien puede usarse como gaming rig, workstation o server! Pero si, apuntada a estas personas que buscan una plataforma 
 de hardware y software asequible y accesible para gestionar el ciclo completo de vida de los modelos de IA generativa. Desde la inferencia hasta el ajuste fino y el desarrollo de agentes, 
 **Digits** ofrece todo lo necesario para construir una solución de IA generativa de extremo a extremo.
 
 ![Creditos: NVIDIA]({{ '/assets/img/nvidia-project-digit.png' | relative_url }})
-
+*Creditos de la imagen: NVIDIA*
 
 ### Privacidad y flexibilidad sin depender de la nube
 
@@ -28,7 +28,7 @@ una superautopista que conecta dos ciudades dinámicas, permitiendo una comunica
 permite manejar rápidamente tareas complejas de IA.
 
 ![Creditos: NVIDIA]({{ '/assets/img/nvidia-project-digit2.jpg' | relative_url }})
-
+*Creditos de la imagen: NVIDIA*
 
 ### Democratizando el acceso a la IA
 
