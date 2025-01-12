@@ -7,9 +7,12 @@ author: Alexia
 ---
 
 En el CES 2025, Nvidia presentó **Project Digits**, su primera supercomputadora personal de IA. El auge de la inteligencia artificial generativa exige acceso a una nueva generación de CPUs y GPUs 
-para personas dedicadas a la ciencia de datos  e ingenieros de IA que trabajan en modelos y soluciones de última generación. **Digits** está dirigido a esta clase de gente, aunque bien puede usarse como gaming rig, workstation o server! Pero si, apuntada a estas personas que buscan una plataforma 
-de hardware y software asequible y accesible para gestionar el ciclo completo de vida de los modelos de IA generativa. Desde la inferencia hasta el ajuste fino y el desarrollo de agentes, 
-**Digits** ofrece todo lo necesario para construir una solución de IA generativa de extremo a extremo.
+para personas dedicadas a la ciencia de datos e ingenieros de IA que trabajan en modelos y soluciones de última generación. **Digits** está dirigido a esta clase de gente, aunque bien puede usarse 
+como gaming rig, workstation o server! 
+
+Pero si, apuntada a estas personas que buscan una plataforma de hardware y software asequible y accesible para gestionar el ciclo completo de vida de los 
+modelos de IA generativa. Desde la inferencia hasta el ajuste fino y el desarrollo de agentes, **Digits** ofrece todo lo necesario para construir una solución de IA generativa de extremo a 
+extremo.
 
 ![Creditos: NVIDIA]({{ '/assets/img/nvidia-project-digit.png' | relative_url }})
 *Creditos de la imagen: NVIDIA*
@@ -18,6 +21,9 @@ de hardware y software asequible y accesible para gestionar el ciclo completo de
 
 Los proveedores independientes de software pueden utilizar **Digits** como un dispositivo para ejecutar sus aplicaciones impulsadas por IA directamente en las instalaciones del cliente. Esto 
 reduce la dependencia de la nube y garantiza niveles incomparables de privacidad, confidencialidad y cumplimiento normativo.
+
+Me dio un poco de risa cuando la anunciaron como "una nube en tu escritorio" Por que si bien tiene sentido a lo que apunta, por un lado es un poco una paradoja, y por otro, por que dió pie a la discusión de si la nube conviene y por que todo es nube ahora, pero si, lo cierto es que 
+es un equipo lo suficientemente poderoso como para poder realizar computos complejos de forma local. ¡Muy util!
 
 
 ## Especificaciones de hardware: Una potencia de IA en tu escritorio
@@ -30,7 +36,7 @@ permite manejar rápidamente tareas complejas de IA.
 ![Creditos: NVIDIA]({{ '/assets/img/nvidia-project-digit2.jpg' | relative_url }})
 *Creditos de la imagen: NVIDIA*
 
-### Democratizando el acceso a la IA
+### Deocratizando el acceso a la Inteligencia Artifiicial
 
 Con un precio base de **3000 dólares**, **Digits** es un dispositivo compacto impulsado por el innovador Superchip **Nvidia GB10 Grace Blackwell**. Permite a los desarrolladores **prototipar, 
 ajustar y ejecutar modelos masivos de IA de forma local**. Esta accesibilidad marca un paso significativo hacia la democratización del entrenamiento de modelos de IA, haciéndolo más accesible para 
