@@ -68,9 +68,9 @@ KDE por procedencia) proporciona la base para el marco de interfaz de usuario de
 ejemplos de proyectos de código abierto que habrían sido esfuerzos técnicos gigantescos para los pequeños equipos 
 que los construyeron, si no hubieran tenido tecnologías web sobre las que construir.
 
-Los estándares web tienden a estar libres de patentes como requisito de diseño. AV1, en particular, es un ejemplo 
-de esto, donde un subproducto de la economía de los navegadores llevó a trabajos de I+D que cualquiera puede usar, 
-en contraste con los estándares de codificación de video anteriores que fueron financiados por tarifas de licencia.
+Los estándares web tienden a estar libres de patentes como requisito de diseño. AV1, en particular, es un ejemplo de 
+esto, donde un subproducto de la economía de los navegadores llevó a trabajos de investigación y desarrollo que 
+cualquiera puede usar, en contraste con los estándares de encoding de video previos que financiaban a través del expendio de licencias.
 
 Las aplicaciones que se cuelgan de la teta de los protocolos web se benefician del hecho que la vasta mayoría de las configuraciones de red permiten HTTP saliente sin mucho piripipí, ahorrandote tiempo que de otro modo perderías configurando reglas de firewall y coso. 
 
