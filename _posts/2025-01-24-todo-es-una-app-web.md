@@ -27,7 +27,7 @@ W3C de 1998 describió los beneficios de construir un sistema RPC sobre HTTP:
 > El mecanismo de transporte ya está proporcionado por HTTP; no hay necesidad de otro protocolo de red. Asimismo, esto reduce el número de parsing necesario en el cliente. En general, menos código significa menos errores de software, clientes más ligeros y mayor interoperabilidad.
 
 Notablemente, la justificación no era que HTTP fuera el mejor protocolo posible para esto. Sino que planteaba que 
-HTTP __**Would get the job done**__ o, en crillo, lograría hacer la tarea. Los clientes ya eran ubicuos y permitía a 
+HTTP __**Would get the job done**__ o, en criollo, lograría hacer la tarea. Los clientes ya eran ubicuos y permitía a 
 las y los desarrolladores abocar su tiempo a construir (o adaptar) las aplicaciones en lugar de discutir que otro protocolo de red utilizar.
 
 No es la primera vez que una cosa se inventa para una cosa y se termina usando para otra.
