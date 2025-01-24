@@ -16,9 +16,9 @@ que antes pertenecían al mundo de las aplicaciones instalables. Y en la actuali
 
 
 Pensemos en el protocolo HTTP, el protocolo subyacente de la web. Comenzó como un protocolo a nivel de aplicación 
-para que los navegadores intercambiaran hipermedios con los servidores web, pero en el software moderno se ha 
+para que los navegadores intercambiaran hipertexto y multimedia (hasta ahí) con los servidores web, pero en el software moderno se ha 
 convertido en un transporte de datos genérico. Estoy escribiendo esta publicación en un editor de terminal (nano) 
-que luego guardaré, haré un git push a mi repositorio de github y jekyll hará su magia para que ustedes puedan 
+que luego guardaré, haré un git push a mi repositorio de github y jekyll hará su magia para que ustedes puedan leerlo en forma de articulo en mi blog. 
 
 Hasta aquí no dije nada ni nuevo ni revolucionario. HTTP para más que hipermedios no es una idea nueva. Una nota del 
 W3C de 1998 describió los beneficios de construir un sistema RPC sobre HTTP:
