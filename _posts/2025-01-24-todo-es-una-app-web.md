@@ -87,13 +87,12 @@ nueva API que aproveche las capacidades modernas de las GPU. WebGPU parece estar
 de propósito general multiplataforma para aplicaciones tanto nativas como en el navegador.
 
 
-**QUIC** - QUIC, el protocolo sobre el que se asienta HTTP/3, es una innovación interesante en sí misma que tiene 
+**QUIC** - El protocolo debajo de HTTP/3, es una innovación interesante en sí misma que tiene 
 potencial para transportar tráfico no HTTP. Se desacopló intencionalmente de HTTP/3 con esto en mente. El hecho de 
-que esté destinado a transportar una gran parte del tráfico global de internet significa que los cortafuegos que 
+que esté destinado a transportar una gran parte del tráfico global de internet significa que los firewalls que 
 bloquean conexiones UDP desconocidas tendrán razones para hacer una excepción para QUIC. Los protocolos que se 
-aprovechan de QUIC no solo se beneficiarán de las propias características de QUIC (como multiplexión, control de 
-congestión, cifrado, migración de conexión del cliente); también tendrán más probabilidades de atravesar cortafuegos 
-de una manera que no ha sido posible para nuevos protocolos basados en UDP.
+aprovechan de QUIC no solo se beneficiarán de las propias características de QUIC (como multiplexado, control de 
+congestión, cifrado, migración de conexión del cliente); también tendrán más probabilidades de atravesar reglas de firewall de una manera que no ha sido posible para nuevos protocolos basados en UDP.
 
 Una de las consecuencias más visibles de todo esto es un cambio en lo que respecta a como se suele o se solía 
 financiar el software en el pasado. En la actualidad muchas compañías lanzan estas cosas de manera libre y gratuita 
