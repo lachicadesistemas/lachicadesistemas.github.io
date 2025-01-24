@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Todo es una app web ahora. Y creo que está bueno
+title: Todo es una app web ahora.
+subtitle: Y creo que está bueno
 date: 2025-01-24
 categories: [webassembly, web, browsers, sockets, http, https, Open Source]
-Author: Alexia Michelle
+Author: Alexia
 ---
 
 Todo es una aplicación web ahora, menos los browsers (jaja) Pero sí. Paso a explicar:
