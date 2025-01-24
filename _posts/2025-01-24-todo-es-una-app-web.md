@@ -55,12 +55,11 @@ centrado en la web y ahora está hasta integrado en algunos televisores. "smart"
 
 Debido a que es difícil cambiar los estándares web una vez que se publican, tienden a ser razonablemente robustos 
 al cambio y lo suficientemente generales como para anticipar el futuro. Es un testimonio de la flexibilidad de HTTP 
-que haya logrado transformarse en un transportador RPC, servidor de video en streaming y facilitador de conexiones a 
-dúplex completo, mientras sigue pareciendo su forma original.
+que haya logrado transformarse en un transportador RPC, servidor de video en streaming y facilitador de conexiones a full duplex y al mismo tiempo, aun pareciendose a lo que solia ser en su forma original.
 
 Esto es un poquito como lo que sucedió en california con los incendios. Los yankis saben que las casas de material 
 son mejores que las de madera, pero fabricar casas de madera allí es lo normal, lo instaurado y lo que van a seguir 
-haciendo.
+haciendo. La analogía casi que no aplica, pero sería como si hicieran casas de madera pero inifugas. Algo asi, o por ahí nada que ver :V
 
 Las etapas de la posguerra de los browsers alimentaron inversiones masivas en software de código 
 abierto de alta calidad. Google construyó el runtime V8 para hacer que Chrome fuera rápido, lo que proporcionó una 
