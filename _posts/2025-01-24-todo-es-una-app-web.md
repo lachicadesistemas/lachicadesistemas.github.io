@@ -64,7 +64,7 @@ haciendo. La analogía casi que no aplica, pero sería como si hicieran casas de
 Las etapas de la posguerra de los browsers alimentaron inversiones masivas en software de código 
 abierto de alta calidad. Google construyó el runtime V8 para hacer que Chrome fuera rápido, lo que proporcionó una 
 base para que Ryan Dahl construyera Node.js. El motor de renderizado Blink de Google (y WebKit de Apple, y KJS de 
-KDE por procedencia) proporciona la base para el marco de interfaz de usuario de escritorio Electron. Ambos son 
+KDE por procedencia) proporciona la base para el framework de la interfaz de escritorio Electron. Ambos son 
 ejemplos de proyectos de código abierto que habrían sido esfuerzos técnicos gigantescos para los pequeños equipos 
 que los construyeron, si no hubieran tenido tecnologías web sobre las que construir.
 
