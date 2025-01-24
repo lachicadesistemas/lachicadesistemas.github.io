@@ -103,3 +103,5 @@ Pero supongo que a quienes militamos el mundo del software libre esto nos benefi
 grafico es un negocio rentable, los coloca ineludiblemente fuera del alcance de los y las entusiastas que buscan 
 construir cosas en base a estos proyectos de manera libre y gratuita. Son modelos de negocio que, en lo personal, 
 estoy contenta que, al menos en un futuro cercano, no vuelvan.
+
+-- Alexia
