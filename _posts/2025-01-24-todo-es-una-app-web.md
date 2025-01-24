@@ -31,8 +31,10 @@ las y los desarrolladores abocar su tiempo a construir (o adaptar) las aplicacio
 
 No es la primera vez que una cosa se inventa para una cosa y se termina usando para otra.
 
-- el WD40 se inventó para desplazar la humedad y hoy lo usamos hasta casi de quitamanchas. Pero volviendo al mundo 
-tech, - HTML comenzó como un formato para documentos de hipertexto, pero a medida que se volvió más capaz, las 
+- el WD40, por ejemplo, se inventó para desplazar la humedad y hoy lo usamos hasta casi de quitamanchas. Pero volviendo al mundo 
+tech: 
+
+- HTML comenzó como un formato para documentos de hipertexto, pero a medida que se volvió más capaz, las 
 aplicaciones se lanzaron a él como un motor de diseño de interfaz de usuario multiplataforma. Y esto es en parte, lo 
 que le está permitiendo a Linux ir ganandose un lugarcito cada vez mas grande en el segmento desktop, entre otras 
 cosas.
