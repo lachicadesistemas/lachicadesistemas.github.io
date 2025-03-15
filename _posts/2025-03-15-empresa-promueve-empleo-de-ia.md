@@ -13,7 +13,7 @@ author: Alexia
 
 ![Crepe]({{ '/assets/img/artisan.png' | relative_url }})
 
-Imaginate vivir en una sociedad donde la economía requiere que los seres humanos tengan un empleo digno y que las startups hagan anuncios publicitarios ¿Apuntados a humanos? intentando convencerlos que no contraten humanos. 
+Imaginate vivir en una sociedad donde la economía requiere que los seres humanos tengan un empleo digno y que las startups tecnológicas hagan campañas publicitarios (¿Apuntados a humanos?) intentando convencerlos que no contraten humanos. 
 Cuanto menos, es para pensar.
 
 En San Francisco, el corazón de Silicon Valley, una startup de IA llamada Artisan ha gastado una suma incalculable bombardeando la ciudad con una campaña publicitaria que prescinde de la necesidad de la humanidad. El eslogan de 
@@ -53,6 +53,3 @@ Por eso me resulta llamativo el riesgo que se está corriendo con toda esta ola 
 La inteligencia artificial como tecnología no es mala, inclusive puede ser muy útil para algunos campos de aplicación. Pero su uso no ético o su abuso si va a poner a gran parte de la humanidad en peligro y es algo que tenemos 
 que comenzar a tomar más seriamente y exigir a los gobiernos que, oportunamente, legislen de manera apropiada para garantizar que los puestos de trabajo de los habitantes de una nación no puedan ser reemplazados por inteligencia 
 artificial. Fundamentalmente por que no quiero ver gente sin trabajo, pero también por las cuestiones que mencioné anteriormente. Una sociedad desempleada arrastra a toda la economía y ahí no se salva nadie.
-
-
-_Por Alexia Michelle_ 
