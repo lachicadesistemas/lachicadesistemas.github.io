@@ -4,14 +4,14 @@ title: Dejá de Contratar humanos
 subtitle: Polemico anuncio publicitario de empresa de IA.
 gh-repo: alexiarstein/bash
 gh-badge: [star, fork, follow]
-cover-img: /assets/img/artisan.png
-share-img: /assets/img/artisan.png
+#cover-img: /assets/img/artisan.png
+#share-img: /assets/img/artisan.png
 tags: [sociedad, tecnología, inteligencia artificial, ia, artisan, capitalismo, economía, noticias, actualidad]
 comments: true
 author: Alexia
 ---
 
-![Crepe]({{ '/assets/img/artisan1.png' | relative_url }})
+![Crepe]({{ '/assets/img/artisan.png' | relative_url }})
 
 Imaginate vivir en una sociedad donde la economía requiere que los seres humanos tengan un empleo digno y que las startups hagan anuncios publicitarios ¿Apuntados a humanos? intentando convencerlos que no contraten humanos. 
 Cuanto menos, es para pensar.
@@ -33,6 +33,8 @@ Escribiendo sobre la campaña publicitaria, el medio local SFGate señala que lo
 Sí, es un tema sombrío. A primera vista, podrías preguntarte quién es el público objetivo de estos carteles. Después de todo, la mayoría de los carteles serán vistos por humanos y, hasta donde se puede discernir, la mayoría de 
 los humanos disfrutan de tener un empleo. Por lo tanto, parece una campaña mediática que discrimina a su audiencia principal. Sin embargo, debajo de la ridiculez inicial, hay una explicación obvia: los anuncios están diseñados 
 para hacer enojar a la gente y, de este modo, captar titulares.
+
+![Crepe]({{ '/assets/img/artisan1.png' | relative_url }})
 
 En una entrevista con SFGate, el CEO de la compañía, Jaspar Carmichael-Jack, defendió la decisión de su empresa de anunciar su producto promoviendo el fin de la fuerza laboral humana. “Son algo distópicos, pero también lo es la 
 IA”, dijo el CEO a SFGate, sobre los anuncios. “La forma en que funciona el mundo está cambiando.” Agregó: “Queríamos algo que llamara la atención — no atraes miradas con mensajes aburridos.”
