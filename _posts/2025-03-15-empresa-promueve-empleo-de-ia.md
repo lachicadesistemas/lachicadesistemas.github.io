@@ -40,7 +40,7 @@ En una entrevista con SFGate, el CEO de la compañía, Jaspar Carmichael-Jack, d
 IA”, dijo el CEO a SFGate, sobre los anuncios. “La forma en que funciona el mundo está cambiando.” Agregó: “Queríamos algo que llamara la atención — no atraes miradas con mensajes aburridos.”
 
 No puedo evitar pensar en la cantidad de personas que promueven a la IA como la solución a los problemas de productividad y con especial foco en que esta tecnología se utilice para llevar a cabo tareas monotonas historicamente llevadas 
-a cabo por humanos.
+a cabo por humanos cuando lo que realmente están haciendo es allanarle el camino a un ínfimo porcentaje de CEOs que se beneficiaran económicamente a costa del sufrimiento de millones de trabajadores que terminarán desempleados.
 
 ## Por que no está bien que la IA reemplace la labor humana
 
