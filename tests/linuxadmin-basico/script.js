@@ -170,7 +170,7 @@ function nextQuestion() {
     const isCorrect = answers[currentQuestion] === question.answer;
     
     if (isCorrect) {
-        score++;
+        score += 5;
         selectedOption.classList.add('correct');
     } else {
         selectedOption.classList.add('incorrect');
@@ -198,7 +198,7 @@ function showResults() {
     document.getElementById('test-screen').classList.add('hidden');
     document.getElementById('result-screen').classList.remove('hidden');
     document.getElementById('result-name').textContent = userName;
-    document.getElementById('result-score').textContent = `${score}/${questions.length}`;
+    document.getElementById('result-score').textContent = `${score}/100`;
 }
 
 function restartTest() {
@@ -238,7 +238,7 @@ function downloadCertificate() {
     ctx.fillText(`¡Felicitaciones ${userName}!`, canvas.width/2, 250);
     ctx.fillText('Has completado exitosamente el', canvas.width/2, 300);
     ctx.fillText('Examen de Administración Linux Básico', canvas.width/2, 350);
-    ctx.fillText(`Con un puntaje de: ${score}/${questions.length}`, canvas.width/2, 400);
+    ctx.fillText(`Con un puntaje de: ${score}/100`, canvas.width/2, 400);
     
     // Date
     const date = new Date().toLocaleDateString('es-ES');
