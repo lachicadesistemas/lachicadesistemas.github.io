@@ -13,7 +13,7 @@ author: Alexia
 
 ![Crepe]({{ '/assets/img/artisan.png' | relative_url }})
 
-Imaginate vivir en una sociedad donde la economía requiere que los seres humanos tengan un empleo digno y que las startups tecnológicas hagan campañas publicitarios (¿Apuntados a humanos?) intentando convencerlos que no contraten humanos. 
+Imaginate vivir en una sociedad donde la economía requiere que los seres humanos tengan un empleo digno y que las startups tecnológicas hagan campañas publicitarias (¿Apuntadas a humanos?) intentando convencerlos que no contraten humanos. 
 Cuanto menos, es para pensar.
 
 En San Francisco, el corazón de Silicon Valley, una startup de IA llamada Artisan ha gastado una suma incalculable bombardeando la ciudad con una campaña publicitaria que prescinde de la necesidad de la humanidad. El eslogan de 
@@ -39,8 +39,8 @@ para hacer enojar a la gente y, de este modo, captar titulares.
 En una entrevista con SFGate, el CEO de la compañía, Jaspar Carmichael-Jack, defendió la decisión de su empresa de anunciar su producto promoviendo el fin de la fuerza laboral humana. “Son algo distópicos, pero también lo es la 
 IA”, dijo el CEO a SFGate, sobre los anuncios. “La forma en que funciona el mundo está cambiando.” Agregó: “Queríamos algo que llamara la atención — no atraes miradas con mensajes aburridos.”
 
-No puedo evitar en la cantidad de personas que promueven a la IA como la solución a los problemas de productividad y con especial foco en que esta tecnología se utilice para llevar a cabo tareas monotonas historicamente llevadas 
-a cabo por humanos.
+No puedo evitar pensar en la cantidad de personas que promueven a la IA como la solución a los problemas de productividad y con especial foco en que esta tecnología se utilice para llevar a cabo tareas monotonas historicamente llevadas 
+a cabo por humanos cuando lo que realmente están haciendo es allanarle el camino a un ínfimo porcentaje de CEOs que se beneficiaran económicamente a costa del sufrimiento de millones de trabajadores que terminarán desempleados.
 
 ## Por que no está bien que la IA reemplace la labor humana
 
