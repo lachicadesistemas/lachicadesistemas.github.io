@@ -231,10 +231,11 @@ function downloadCertificate() {
     ctx.fillStyle = '#2c3e50';
     ctx.font = 'bold 40px Arial';
     ctx.textAlign = 'center';
-    ctx.fillText('Certificado de Completitud', canvas.width/2, 150);
+    ctx.fillText('Certificado', canvas.width/2, 150);
     
     // Content
     ctx.font = '24px Arial';
+    ctx.fillText(`Comunidad Andromeda / La Chica de Sistemas`, canvas.width/2,200);
     ctx.fillText(`¡Felicitaciones ${userName}!`, canvas.width/2, 250);
     ctx.fillText('Has completado exitosamente el', canvas.width/2, 300);
     ctx.fillText('Examen de Administración Linux Básico', canvas.width/2, 350);
