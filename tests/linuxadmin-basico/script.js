@@ -19,7 +19,7 @@ const questions = [
     {
         type: 'multiple-choice',
         question: '¿Qué comando se usa para ver el contenido de un archivo?',
-        options: ['cat', 'dog', 'mouse', 'bird'],
+        options: ['cat', 'look', 'find', 'read'],
         answer: 0
     },
     {
@@ -41,7 +41,7 @@ const questions = [
     {
         type: 'multiple-choice',
         question: '¿Qué comando se usa para cambiar de directorio?',
-        options: ['cd', 'change', 'dir', 'move'],
+        options: ['cd', 'goto', 'dir', 'move'],
         answer: 0
     },
     {
