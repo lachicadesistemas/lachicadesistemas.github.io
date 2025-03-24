@@ -930,7 +930,7 @@
             }, 100);
         }
         
-        // Function to print certificate
+      // Function to print certificate
         function printCertificate() {
             // Show loading state
             const printBtn = document.querySelector('[onclick="printCertificate()"]');
@@ -1001,7 +1001,7 @@
                                 window.print();
                                 window.close();
                             }, 200);
-                        </script>
+                        <\/script>
                     </body>
                 </html>
             `);
@@ -1011,14 +1011,14 @@
             printBtn.textContent = originalText;
             printBtn.disabled = false;
         }
-        
+
         // Function to go back to results
         function backToResults() {
             document.getElementById("certificateContainer").style.display = "none";
             document.getElementById("resultContainer").style.display = "block";
             document.getElementById("resultContainer").scrollIntoView({ behavior: 'smooth' });
         }
-        
+
         // Function to reset the quiz
         function resetQuiz() {
             // Clear all selections
