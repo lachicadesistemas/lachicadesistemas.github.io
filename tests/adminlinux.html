@@ -884,47 +884,135 @@
             document.getElementById("certificateContainer").scrollIntoView({ behavior: 'smooth' });
         }
         
+      // [Previous JavaScript code remains the same until the downloadCertificate function]
+
         // Function to download certificate as image
         function downloadCertificate() {
+            // Show loading state
+            const downloadBtn = document.querySelector('[onclick="downloadCertificate()"]');
+            const originalText = downloadBtn.textContent;
+            downloadBtn.textContent = "Generando...";
+            downloadBtn.disabled = true;
+
             const certificateContent = document.getElementById("certificateContent");
             
-            html2canvas(certificateContent, {
-                scale: 2, // Higher quality
-                logging: false,
-                useCORS: true,
-                allowTaint: true
-            }).then(canvas => {
-                const link = document.createElement('a');
-                link.download = `Certificado-Linux-${document.getElementById("userName").value.trim()}.png`;
-                link.href = canvas.toDataURL('image/png');
-                link.click();
-            });
+            // Add a small delay to ensure DOM updates are complete
+            setTimeout(() => {
+                html2canvas(certificateContent, {
+                    scale: 2,
+                    logging: false,
+                    useCORS: true,
+                    allowTaint: true,
+                    scrollX: 0,
+                    scrollY: 0,
+                    windowWidth: certificateContent.scrollWidth,
+                    windowHeight: certificateContent.scrollHeight
+                }).then(canvas => {
+                    try {
+                        const link = document.createElement('a');
+                        const userName = document.getElementById("userName").value.trim() || "Certificado";
+                        link.download = `Certificado-Linux-${userName}.png`;
+                        link.href = canvas.toDataURL('image/png');
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    } catch (error) {
+                        console.error("Error generating certificate:", error);
+                        alert("Error al generar el certificado. Por favor intente nuevamente.");
+                    } finally {
+                        // Restore button state
+                        downloadBtn.textContent = originalText;
+                        downloadBtn.disabled = false;
+                    }
+                }).catch(error => {
+                    console.error("html2canvas error:", error);
+                    alert("Error al generar la imagen del certificado. Asegúrese de que todo el contenido se haya cargado correctamente.");
+                    downloadBtn.textContent = originalText;
+                    downloadBtn.disabled = false;
+                });
+            }, 100);
         }
-        
+
         // Function to print certificate
         function printCertificate() {
-            const originalContents = document.body.innerHTML;
-            const certificateContent = document.getElementById("certificateContent").innerHTML;
+            // Show loading state
+            const printBtn = document.querySelector('[onclick="printCertificate()"]');
+            const originalText = printBtn.textContent;
+            printBtn.textContent = "Preparando...";
+            printBtn.disabled = true;
+
+            // Create a clone of the certificate content
+            const certificateContent = document.getElementById("certificateContent").cloneNode(true);
             
-            document.body.innerHTML = `
+            // Create print-specific styles
+            const printStyles = `
                 <style>
-                    body { font-family: 'Poppins', sans-serif; padding: 2rem; }
-                    .certificate-content { max-width: 800px; margin: 0 auto; }
-                    .certificate-title { font-size: 2rem; text-align: center; }
-                    .certificate-name { font-size: 1.5rem; text-align: center; margin: 1rem 0; }
-                    .certificate-score { font-size: 3rem; text-align: center; margin: 1rem 0; }
-                    .certificate-footer { display: flex; justify-content: space-between; margin-top: 2rem; }
                     @media print {
-                        @page { size: A4 landscape; margin: 0; }
-                        body { padding: 1cm; }
+                        body { 
+                            font-family: 'Poppins', sans-serif; 
+                            padding: 0;
+                            margin: 0;
+                            background: white !important;
+                        }
+                        .certificate-content { 
+                            width: 100% !important;
+                            height: 100% !important;
+                            margin: 0 !important;
+                            padding: 20px !important;
+                            border: none !important;
+                            box-shadow: none !important;
+                            background: white !important;
+                        }
+                        .certificate-title { 
+                            font-size: 28pt !important; 
+                            margin-bottom: 20px !important;
+                        }
+                        .certificate-name { 
+                            font-size: 20pt !important;
+                            margin: 30px 0 !important;
+                        }
+                        .certificate-score { 
+                            font-size: 36pt !important;
+                            margin: 30px 0 !important;
+                        }
+                        .certificate-text { 
+                            font-size: 14pt !important;
+                            margin: 15px 0 !important;
+                        }
+                        .action-buttons { display: none !important; }
+                        @page { 
+                            size: A4 landscape; 
+                            margin: 0; 
+                        }
                     }
                 </style>
-                ${certificateContent}
             `;
             
-            window.print();
-            document.body.innerHTML = originalContents;
-            document.getElementById("certificateContainer").style.display = "block";
+            // Open print window
+            const printWindow = window.open('', '_blank');
+            printWindow.document.open();
+            printWindow.document.write(`
+                <html>
+                    <head>
+                        <title>Certificado Linux</title>
+                        ${printStyles}
+                    </head>
+                    <body>
+                        ${certificateContent.innerHTML}
+                        <script>
+                            setTimeout(function() {
+                                window.print();
+                                window.close();
+                            }, 200);
+                        </script>
+                    </body>
+                </html>
+            `);
+            printWindow.document.close();
+
+            // Restore button state
+            printBtn.textContent = originalText;
+            printBtn.disabled = false;
         }
         
         // Function to go back to results
