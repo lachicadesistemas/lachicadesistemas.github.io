@@ -10,7 +10,9 @@ Licencia: GNU GPL 3.0
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: linear-gradient(135deg, #1d1d41, #292952);
+      background: linear-gradient(135deg, #1d1d41, #24244d, #292952);
+
+/*      background: linear-gradient(135deg, #1d1d41, #292952); */
 
      color: #f1f1f1 !important; 
   font-family: "Host Grotesk", sans-serif;
