@@ -2,7 +2,7 @@
 const questions = [
     {
         type: 'true-false',
-        question: 'En Linux, el comando "ls -l" muestra los archivos en formato largo.',
+        question: 'En Linux, el comando "ls -l" muestra los archivos en formato extendido.',
         answer: true
     },
     {
@@ -19,7 +19,7 @@ const questions = [
     {
         type: 'multiple-choice',
         question: '¿Qué comando se usa para ver el contenido de un archivo?',
-        options: ['cat', 'dog', 'mouse', 'bird'],
+        options: ['cat', 'find', 'look', 'search'],
         answer: 0
     },
     {
@@ -237,7 +237,7 @@ function downloadCertificate() {
     ctx.fillStyle = '#2c3e50';
     ctx.font = 'bold 40px Arial';
     ctx.textAlign = 'center';
-    ctx.fillText('Certificado de Completitud', canvas.width/2, 150);
+    ctx.fillText('Certificado de Examen', canvas.width/2, 150);
     
     // Content
     ctx.font = '24px Arial';
