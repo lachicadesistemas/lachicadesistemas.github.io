@@ -19,7 +19,7 @@ const questions = [
     {
         type: 'multiple-choice',
         question: '¿Qué comando se usa para ver el contenido de un archivo?',
-        options: ['cat', 'look', 'find', 'read'],
+        options: ['cat', 'dog', 'mouse', 'bird'],
         answer: 0
     },
     {
@@ -41,7 +41,7 @@ const questions = [
     {
         type: 'multiple-choice',
         question: '¿Qué comando se usa para cambiar de directorio?',
-        options: ['cd', 'goto', 'dir', 'move'],
+        options: ['cd', 'change', 'dir', 'move'],
         answer: 0
     },
     {
@@ -103,6 +103,12 @@ const questions = [
         type: 'true-false',
         question: 'El comando "wget" se usa para descargar archivos de internet.',
         answer: true
+    },
+    {
+        type: 'multiple-choice',
+        question: '¿Qué comando se usa para ver los usuarios conectados al sistema?',
+        options: ['who', 'users', 'logged', 'connected'],
+        answer: 0
     }
 ];
 
@@ -231,11 +237,10 @@ function downloadCertificate() {
     ctx.fillStyle = '#2c3e50';
     ctx.font = 'bold 40px Arial';
     ctx.textAlign = 'center';
-    ctx.fillText('Certificado', canvas.width/2, 150);
+    ctx.fillText('Certificado de Completitud', canvas.width/2, 150);
     
     // Content
     ctx.font = '24px Arial';
-    ctx.fillText(`Comunidad Andromeda / La Chica de Sistemas`, canvas.width/2,200);
     ctx.fillText(`¡Felicitaciones ${userName}!`, canvas.width/2, 250);
     ctx.fillText('Has completado exitosamente el', canvas.width/2, 300);
     ctx.fillText('Examen de Administración Linux Básico', canvas.width/2, 350);
