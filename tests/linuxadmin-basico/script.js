@@ -243,7 +243,7 @@ function downloadCertificate() {
     ctx.font = '24px Arial';
     ctx.fillText(`¡Felicitaciones ${userName}!`, canvas.width/2, 250);
     ctx.fillText('Has completado exitosamente el', canvas.width/2, 300);
-    ctx.fillText('Examen de Administración Linux Básico', canvas.width/2, 350);
+    ctx.fillText('Examen de Administración Linux I - Principiante', canvas.width/2, 350);
     ctx.fillText(`Con un puntaje de: ${score}/100`, canvas.width/2, 400);
     
     // Date
