@@ -4,7 +4,7 @@ title: Los Certificados TLS/SSL Durarán sólo 47 días
 subtitle: Por Decisión del comité CA/Browser Forum
 date: 2025-04-17
 share-img: /assets/img/ssl.jpg
-thumbnail-img: /assets/img/ssl.jpg
+#thumbnail-img: /assets/img/ssl.jpg
 categories: [seguridad, tls, ssl, web, server, ciberseguridad]
 author: Alexia
 ---
@@ -16,7 +16,7 @@ oficialmente una enmienda a los Requisitos Básicos de los certificados TLS, est
 reutilizarse la información validada por una CA. Los primeros cambios comenzarán a afectar a los usuarios a partir de **marzo de 2026**.
 
 
-![TLS]({{ '/assets/img/tls.jpg' | relative_url }})
+![TLS]({{ '/assets/img/ssl.jpg' | relative_url }})
 
 
 Esta votación fue largamente debatida en el CA/Browser Forum y pasó por varias versiones, incorporando comentarios tanto de autoridades certificadoras como de sus clientes. El período de votación 
