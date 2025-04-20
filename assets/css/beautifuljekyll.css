@@ -803,6 +803,7 @@ border-color:#000;
 
 table {
   padding: 0;
+color: #f060f7;
 }
 table tr {
   border-top: 1px dashed #f060f7;
@@ -811,7 +812,8 @@ table tr {
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #cccccc;
+color: #f060f7;  
+background-color: #131313;
 }
 table tr th {
   font-weight: bold;
