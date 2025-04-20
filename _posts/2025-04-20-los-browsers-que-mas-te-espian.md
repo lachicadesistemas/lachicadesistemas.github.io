@@ -384,12 +384,11 @@ ublockorigin.github.io              TCP  443
 ---
 
 ### Librewolf
-Direct download URL
-Version: 137.0.1
-Motor: Gecko
-Participación de Mercado: < 0.1%
-Tamaño: 369MB
-Conexiones: 24
+- Version: 137.0.1
+- Motor: Gecko
+- Participación de Mercado: < 0.1%
+- Tamaño: 369MB
+- Conexiones: 24
 ```
 addons.mozilla.org                                         TCP  443
 push.services.mozilla.com                                  TCP  443
@@ -419,11 +418,11 @@ ublockorigin.github.io                                     TCP  443
 ---
 
 ### Arc browser
-Version: 1.90.1
-Motor: Blink
-Participación de Mercado: < 1%
-Tamaño: 811MB
-Conexiones: 16
+- Version: 1.90.1
+- Motor: Blink
+- Participación de Mercado: < 1%
+- Tamaño: 811MB
+- Conexiones: 16
 ```
 mobile.launchdarkly.com        TCP  443
 clientstream.launchdarkly.com  TCP  443
@@ -445,29 +444,29 @@ www.googleapis.com             TCP  443
 ---
 
 ### Kagi Orion
-Version: 0.99
-Motor: WebKit
-Participación de Mercado: < 1%
-Tamaño: 612MB
-Conexiones: 0
+- Version: 0.99
+- Motor: WebKit
+- Participación de Mercado: < 1%
+- Tamaño: 612MB
+- Conexiones: 0
 
 ---
 
-###Pale Moon
-Version: 33.7.0
-Motor: Goanna
-Participación de Mercado: < 0.1%
-Tamaño: 85MB
-Conexiones: 0
+### Pale Moon
+- Version: 33.7.0
+- Motor: Goanna
+- Participación de Mercado: < 0.1%
+- Tamaño: 85MB
+- Conexiones: 0
 
 ---
 
 ### Floorp
-Version: 11.25
-Motor: Gecko
-Participación de Mercado: < 1%
-Tamaño: 447MB
-Conexiones: 42
+- Version: 11.25
+- Motor: Gecko
+- Participación de Mercado: < 1%
+- Tamaño: 447MB
+- Conexiones: 42
 ```
 prod.classify-client.prod.webservices.mozgcp.net              TCP  443
 prod.remote-settings.prod.webservices.mozgcp.net              TCP  443
@@ -516,10 +515,10 @@ support.ablaze.one                                            UDP  443
 ---
 
 ### Zen browser
-Version: 1.11.4b
-Motor: Gecko
-Participación de Mercado: < 1%
-Conexiones: 82
+- Version: 1.11.4b
+- Motor: Gecko
+- Participación de Mercado: < 1%
+- Conexiones: 82
 ```
 prod.remote-settings.prod.webservices.mozgcp.net              TCP  443
 prod.classify-client.prod.webservices.mozgcp.net              TCP  443
@@ -607,9 +606,9 @@ region1.google-analytics.com                                  UDP  443
 ---
 
 ### Waterfox
-Motor: Gecko
-Participación de Mercado: < 0.1%
-Conexiones: 21
+- Motor: Gecko
+- Participación de Mercado: < 0.1%
+- Conexiones: 21
 ```
 dooh.cloudflare-dns.com                           TCP  443
 prod.classify-client.prod.webservices.mozgcp.net  TCP  443
@@ -636,9 +635,9 @@ www.google.com                                    TCP  443
 ---
 
 ### Thorium
-Motor: Blink
-Participación de Mercado: < 0.1%
-Conexiones: 10
+- Motor: Blink
+- Participación de Mercado: < 0.1%
+- Conexiones: 10
 ```
 accounts.google.com           TCP  443
 www.google.com                TCP  443
