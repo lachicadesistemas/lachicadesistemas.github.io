@@ -75,7 +75,7 @@ Tablita comparativa ordenada de menor a mayor según cantidad de conexionesn no 
       <th>Conexiones</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody style="background-color:#000;">
     <tr><td class="green">Tor Browser</td><td>&lt; 1%</td><td>0</td></tr>
     <tr><td class="green">Kagi Orion</td><td>&lt; 1%</td><td>0</td></tr>
     <tr><td class="green">Pale Moon</td><td>&lt; 0.1%</td><td>0</td></tr>
