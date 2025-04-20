@@ -310,9 +310,9 @@ ocsp.sectigo.com                                      TCP 80
 --- 
 
 ### Apple Safari
-- Engine: WebKit
-- Market share: 8.23%
-- Connections: 6
+- Motor: WebKit
+- Participación de Mercado: 8.23%
+- Conexiones: 6
 ```
 token.safebrowsing.apple                              TCP 443  
 www.apple.com                                         TCP 443  
@@ -325,10 +325,10 @@ api-glb-euc1b.smoot.apple.com                         TCP 443
 
 ### Yandex Browser
 - Version: 25.2.5.940.75827
-- Engine: Blink
+- Motor: Blink
 - Cuota de Mercado: < 1%
-- Size: 505MB
-- Connections: 24
+- Tamaño: 505MB
+- Conexiones: 24
 ```
 api.browser.yandex.com         TCP  443
 update.googleapis.com          TCP  443
@@ -360,10 +360,10 @@ cloudcdn-ams19.cdn.yandex.net  TCP  443
 
 ### Mullvad Browser
 - Version: 14.0.9
-- Engine: Gecko
-- Market share: < 1%
-- Size: 370MB
-- Connections: 15
+- Motor: Gecko
+- Participación de Mercado: < 1%
+- Tamaño: 370MB
+- Conexiones: 15
 ```
 dns.mullvad.net                     TCP  443
 a1887.dscq.akamai.net               TCP  80
@@ -386,10 +386,10 @@ ublockorigin.github.io              TCP  443
 ### Librewolf
 Direct download URL
 Version: 137.0.1
-Engine: Gecko
-Market share: < 0.1%
-Size: 369MB
-Connections: 24
+Motor: Gecko
+Participación de Mercado: < 0.1%
+Tamaño: 369MB
+Conexiones: 24
 ```
 addons.mozilla.org                                         TCP  443
 push.services.mozilla.com                                  TCP  443
@@ -418,6 +418,240 @@ ublockorigin.github.io                                     TCP  443
 ```
 ---
 
+### Arc browser
+Version: 1.90.1
+Motor: Blink
+Participación de Mercado: < 1%
+Tamaño: 811MB
+Conexiones: 16
+```
+mobile.launchdarkly.com        TCP  443
+clientstream.launchdarkly.com  TCP  443
+cdn-settings.segment.com       TCP  443
+securetoken.googleapis.com     TCP  443
+o298668.ingest.sentry.io       TCP  443
+update.googleapis.com          TCP  443
+0.datadog.pool.ntp.org         UDP  123
+content.arc.net                TCP  443
+releases.arc.net               TCP  443
+firestore.googleapis.com       TCP  443
+api.segment.io                 TCP  443
+safebrowsing.googleapis.com    TCP  443
+update.googleapis.com          TCP  80
+edgedl.me.gvt1.com             TCP  80
+update.googleapis.com          UDP  443
+www.googleapis.com             TCP  443
+```
+---
+
+### Kagi Orion
+Version: 0.99
+Motor: WebKit
+Participación de Mercado: < 1%
+Tamaño: 612MB
+Conexiones: 0
+
+---
+
+###Pale Moon
+Version: 33.7.0
+Motor: Goanna
+Participación de Mercado: < 0.1%
+Tamaño: 85MB
+Conexiones: 0
+
+---
+
+### Floorp
+Version: 11.25
+Motor: Gecko
+Participación de Mercado: < 1%
+Tamaño: 447MB
+Conexiones: 42
+```
+prod.classify-client.prod.webservices.mozgcp.net              TCP  443
+prod.remote-settings.prod.webservices.mozgcp.net              TCP  443
+www.google.com                                                TCP  443
+docs.ablaze.one                                               TCP  443
+prod.detectportal.prod.cloudops.mozgcp.net                    TCP  80
+m33.coreserver.jp                                             TCP  443
+mc.prod.ads.prod.webservices.mozgcp.net                       TCP  443
+push.services.mozilla.com                                     TCP  443
+floorp-update.ablaze.one                                      TCP  443
+raw.githubusercontent.com                                     TCP  443
+shavar.prod.mozaws.net                                        TCP  443
+a1887.dscq.akamai.net                                         TCP  80
+prod.content-signature-chains.prod.webservices.mozgcp.net     TCP  443
+pki-goog.l.google.com                                         TCP  80
+www.google.com                                                UDP  443
+t0.gstatic.com                                                TCP  443
+t2.gstatic.com                                                TCP  443
+location.services.mozilla.com                                 TCP  443
+services.addons.mozilla.org                                   TCP  443
+safebrowsing.googleapis.com                                   TCP  443
+r10.o.lencr.org                                               TCP  80
+js.hcaptcha.com                                               TCP  443
+detectportal.firefox.com                                      TCP  80
+push.services.mozilla.com                                     UDP  443
+o.pki.goog                                                    TCP  80
+docs.ablaze.one                                               UDP  443
+static.cloudflareinsights.com                                 TCP  443
+cdn.jsdelivr.net.cdn.cloudflare.net                           TCP  443
+floorp-update.ablaze.one                                      UDP  443
+content-signature-2.cdn.mozilla.net                           TCP  443
+attachments.prod.remote-settings.prod.webservices.mozgcp.net  TCP  443
+addons.mozilla.org                                            TCP  443
+support.ablaze.one                                            TCP  443
+www3.l.google.com                                             TCP  443
+docs.floorp.app                                               TCP  443
+prod.balrog.prod.cloudops.mozgcp.net                          TCP  443
+a19.dscg10.akamai.net                                         TCP  80
+edgedl.me.gvt1.com                                            TCP  443
+firefox-settings-attachments.cdn.mozilla.net                  TCP  443
+translate.google.com                                          TCP  443
+edgedl.me.gvt1.com                                            UDP  443
+support.ablaze.one                                            UDP  443
+
+```
+---
+
+### Zen browser
+Version: 1.11.4b
+Motor: Gecko
+Participación de Mercado: < 1%
+Conexiones: 82
+```
+prod.remote-settings.prod.webservices.mozgcp.net              TCP  443
+prod.classify-client.prod.webservices.mozgcp.net              TCP  443
+zen-browser.app                                               TCP  443
+prod.detectportal.prod.cloudops.mozgcp.net                    TCP  80
+merino.services.mozilla.com                                   TCP  443
+push.services.mozilla.com                                     TCP  443
+updates.zen-browser.app                                       TCP  443
+a1887.dscq.akamai.net                                         TCP  80
+attachments.prod.remote-settings.prod.webservices.mozgcp.net  TCP  443
+pki-goog.l.google.com                                         TCP  80
+zen-browser.app                                               UDP  443
+static.cloudflareinsights.com                                 TCP  443
+bunnyfonts.b-cdn.net                                          TCP  443
+services.addons.mozilla.org                                   TCP  443
+location.services.mozilla.com                                 TCP  443
+prod.content-signature-chains.prod.webservices.mozgcp.net     TCP  443
+merino.services.mozilla.com                                   UDP  443
+r10.o.lencr.org                                               TCP  80
+push.services.mozilla.com                                     UDP  443
+detectportal.firefox.com                                      TCP  80
+content-signature-chains.prod.autograph.services.mozaws.net   TCP  443
+fonts.bunny.net                                               TCP  443
+prod.balrog.prod.cloudops.mozgcp.net                          TCP  443
+a19.dscg10.akamai.net                                         TCP  80
+edgedl.me.gvt1.com                                            TCP  443
+r11.o.lencr.org                                               TCP  80
+firefox-settings-attachments.cdn.mozilla.net                  TCP  443
+firefox.settings.services.mozilla.com                         TCP  443
+fonts.bunny.net                                               UDP  443
+edgedl.me.gvt1.com                                            UDP  443
+github.githubassets.com                                       TCP  443
+mmx-ds.cdn.whatsapp.net                                       TCP  443
+www.google.com                                                TCP  443
+calendar.google.com                                           TCP  443
+www.notion.so                                                 TCP  443
+www.youtube.com                                               TCP  443
+youtube-ui.l.google.com                                       TCP  443
+trello.com                                                    TCP  443
+twimg.twitter.map.fastly.net                                  TCP  443
+d29id7n8587nnz.cloudfront.net                                 TCP  443
+discord.com                                                   TCP  443
+push.services.mozilla.com                                     TCP  443
+x.com                                                         TCP  443
+reddit.com                                                    TCP  443
+notion.com                                                    TCP  443
+o.pki.goog                                                    TCP  80
+accounts.google.com                                           TCP  443
+discord.com                                                   UDP  443
+fonts.googleapis.com                                          TCP  443
+fonts.gstatic.com                                             TCP  443
+ajax.googleapis.com                                           TCP  443
+cdn.prod.website-files.com                                    TCP  443
+cdn.localizeapi.com                                           TCP  443
+d3e54v103j8qbb.cloudfront.net                                 TCP  443
+abs-zero.twimg.com                                            TCP  443
+cf.x.com                                                      TCP  443
+api.x.com                                                     TCP  443
+accounts.google.com                                           UDP  443
+workspace.google.com                                          TCP  443
+play.google.com                                               TCP  443
+fonts.gstatic.com                                             UDP  443
+ajax.googleapis.com                                           UDP  443
+cdn.prod.website-files.com                                    UDP  443
+cdn.localizeapi.com                                           UDP  443
+cdn.discordapp.com                                            TCP  443
+www.googletagmanager.com                                      TCP  443
+geolocation.onetrust.com                                      TCP  443
+www.youtube.com                                               UDP  443
+www.gstatic.com                                               TCP  443
+fonts.googleapis.com                                          UDP  443
+cdn.discordapp.com                                            UDP  443
+www.googletagmanager.com                                      UDP  443
+lh3.googleusercontent.com                                     TCP  443
+storage.googleapis.com                                        TCP  443
+ssl.google-analytics.com                                      TCP  443
+www.google-analytics.com                                      TCP  443
+region1.google-analytics.com                                  TCP  443
+www.google-analytics.com                                      UDP  443
+lh3.googleusercontent.com                                     UDP  443
+storage.googleapis.com                                        UDP  443
+ssl.google-analytics.com                                      UDP  443
+region1.google-analytics.com                                  UDP  443
+```
+---
+
+### Waterfox
+Motor: Gecko
+Participación de Mercado: < 0.1%
+Conexiones: 21
+```
+dooh.cloudflare-dns.com                           TCP  443
+prod.classify-client.prod.webservices.mozgcp.net  TCP  443
+prod.remote-settings.prod.webservices.mozgcp.net  TCP  443
+www.waterfox.net                                  TCP  443
+prod.detectportal.prod.cloudops.mozgcp.net        TCP  80
+aus1.waterfox.net                                 TCP  443
+accounts.firefox.com                              TCP  443
+push.services.mozilla.com                         TCP  443
+shavar.prod.mozaws.net                            TCP  443
+firefox.settings.services.mozilla.com             TCP  443
+location.services.mozilla.com                     TCP  443
+services.addons.mozilla.org                       TCP  443
+waterfox-ohttp-relay.fastly-edge.com              TCP  443
+aus1.waterfox.net                                 UDP  443
+accounts.firefox.com                              UDP  443
+push.services.mozilla.com                         UDP  443
+detectportal.firefox.com                          TCP  80
+dooh.waterfox.net                                 TCP  443
+prod.balrog.prod.cloudops.mozgcp.net              TCP  443
+edgedl.me.gvt1.com                                TCP  443
+www.google.com                                    TCP  443
+```
+---
+
+### Thorium
+Motor: Blink
+Participación de Mercado: < 0.1%
+Conexiones: 10
+```
+accounts.google.com           TCP  443
+www.google.com                TCP  443
+www.gstatic.com               TCP  443
+ogads-pa.clients6.google.com  TCP  443
+plus.l.google.com             TCP  443
+play.google.com               TCP  443
+ogads-pa.clients6.google.com  UDP  443
+apis.google.com               TCP  443
+update.googleapis.com         TCP  443
+www.google.com                UDP  443
+```
+---
 ## Conclusión
 
 La mayoría de los navegadores modernos **contactan servidores externos antes de que puedas configurarlos**. Ya sea por telemetría, actualizaciones de listas de bloqueo o contenido en la pestaña 
