@@ -510,7 +510,6 @@ firefox-settings-attachments.cdn.mozilla.net                  TCP  443
 translate.google.com                                          TCP  443
 edgedl.me.gvt1.com                                            UDP  443
 support.ablaze.one                                            UDP  443
-
 ```
 ---
 
