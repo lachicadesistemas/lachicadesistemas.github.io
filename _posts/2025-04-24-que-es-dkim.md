@@ -22,7 +22,7 @@ simplemente escribiendo cualquier nombre en el campo “De” y la dirección de
 Ahora, imaginá que antes de enviar tu carta, la persona del correo te pide el DNI para validar tu identidad, y luego el correo le pone un sello a tu carta para confirmar que fue manejada de forma 
 segura y no fue manipulada. DKIM funciona de manera similar: asegura que el correo fue firmado correctamente y no fue modificado, ayudando así a reducir los riesgos de ataques de phishing.
 
-![FIRMA DKIM]({{ '/assets/img/firma-dkim.jpg' | relative_url }})
+![FIRMA DKIM]({{ '/assets/img/firma-dkim.png' | relative_url }})
 
 ## Puntos clave sobre DKIM
 
