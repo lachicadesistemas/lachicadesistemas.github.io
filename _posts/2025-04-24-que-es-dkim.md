@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ¿Qué es DKIM y por qué es tan importante para la salud del correo electrónico? 
-subtitle: Tu correo corporativo necesita DKIM
+subtitle: DKIM Explicado facil
 date: 2025-04-24
 share-img: /assets/img/dkim-share.png
 categories: [seguridad, tls, browsers, dns, email, correo, privacidad, web, ciberseguridad]
@@ -107,7 +107,4 @@ Sí. En muchos casos, **DKIM es más importante que SPF** para cumplir con DMARC
 
 ---
 
-¿Te quedó alguna duda sobre DKIM? ¡Dejame tu comentario o escribime en instagram threads o bluesky al hashtag #LCDS
-
-
-
+Y ahora que seguramente entendieron DKIM, Quieren que hable sobre SPF y DMARC?
