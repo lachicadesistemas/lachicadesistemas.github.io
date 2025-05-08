@@ -51,11 +51,11 @@ sudo zypper ref```
 Al refrescar los repositorios, se te mostrará una clave GPG para aceptar:
 
 
-```Fingerprint: EED7 FE07 D0FC DEF0 E5B4 D4A9 C0DA 4428 1599 EA1E
+Fingerprint: ```EED7 FE07 D0FC DEF0 E5B4 D4A9 C0DA 4428 1599 EA1E```
 
-Nombre: X11:Deepin:Factory OBS Project <X11:Deepin:Factory@build.opensuse.org>
+Nombre: ```X11:Deepin:Factory OBS Project <X11:Deepin:Factory@build.opensuse.org>```
 
-Algoritmo: RSA 2048```
+Algoritmo: ```RSA 2048```
 
 Es importante verificar la autenticidad de la clave, ya que aceptar paquetes firmados de este repositorio implica confiar en ellos sin la revisión del equipo de seguridad de SUSE ni del equipo de revisión de paquetes de openSUSE.
 
