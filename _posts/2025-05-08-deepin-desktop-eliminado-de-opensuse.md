@@ -22,7 +22,7 @@ distribuciones de openSUSE por el momento.
 El equipo de seguridad de SUSE aplica una serie de restricciones de empaquetado en openSUSE. Entre ellas, cualquier archivo de configuración de servicio D-Bus o políticas de Polkit debe pasar 
 por una revisión de seguridad. Una vez aprobado, el paquete se puede enviar al proyecto openSUSE:Factory (base de la versión rolling release Tumbleweed).
 
-![Mi Pareja y Yo]({{ '/assets/img/deepin-feature-enable.png' | relative_url }})
+![Licencia deepin]({{ '/assets/img/deepin-feature-enable.png' | relative_url }})
 > La licencia de deepin desktop en OpenSuse
 
 Desde 2017, el empaquetador de Deepin ha trabajado para incluir componentes, y algunos lograron ser aprobados. Sin embargo, muchos otros quedaron estancados por no cumplir con los requisitos.
@@ -45,16 +45,17 @@ Si bien ofrecer un script manual para habilitar componentes no aprobados es meno
 Actualmente, no se recomienda usar Deepin en openSUSE debido a los problemas de seguridad mencionados. Sin embargo, si aún así querés probarlo, podés agregar el repositorio de desarrollo Deepin de 
 la siguiente forma:
 
-sudo zypper ar https://download.opensuse.org/repositories/X11:/Deepin:/Factory/openSUSE_Tumbleweed deepin-factory
-sudo zypper ref
+```sudo zypper ar https://download.opensuse.org/repositories/X11:/Deepin:/Factory/openSUSE_Tumbleweed deepin-factory
+sudo zypper ref```
 
 Al refrescar los repositorios, se te mostrará una clave GPG para aceptar:
 
-Fingerprint: EED7 FE07 D0FC DEF0 E5B4 D4A9 C0DA 4428 1599 EA1E
+```Fingerprint: EED7 FE07 D0FC DEF0 E5B4 D4A9 C0DA 4428 1599 EA1E
 
 Nombre: X11:Deepin:Factory OBS Project <X11:Deepin:Factory@build.opensuse.org>
 
 Algoritmo: RSA 2048
+```
 
 Es importante verificar la autenticidad de la clave, ya que aceptar paquetes firmados de este repositorio implica confiar en ellos sin la revisión del equipo de seguridad de SUSE ni del equipo de revisión de paquetes de openSUSE.
 
@@ -68,6 +69,6 @@ deberán optar explícitamente por un repositorio externo y asumir los riesgos q
 Si te interesa seguir este tema, te recomiendo estar pendiente del blog y los canales oficiales de openSUSE para actualizaciones futuras.
 
 
-Por **Alexia Michelle*
+Por *Alexia Michelle*
 
 Fuente: [Security OpenSuse](https://security.opensuse.org/2025/05/07/deepin-desktop-removal.html)
