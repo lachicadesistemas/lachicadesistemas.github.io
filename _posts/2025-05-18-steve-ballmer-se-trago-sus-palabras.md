@@ -44,10 +44,12 @@ Pero eligió no hacerlo, y dejó una pila enorme de plata sobre la mesa.
 El resultado es que hoy Microsoft tiene grandes vacíos en su imperio:
 
 - No tiene un smartphone propio ni una tablet barata que compita.
-- No tiene nada que le haga frente a los Chromebooks.
+- No tiene nada que le haga frente a las thinkpad, las macbooks o las Chromebooks.
 - Su tienda de apps no logra despegar.
 - Tiene una presencia pequeña en la industria del entretenimiento.
 - Y casi ninguna influencia en automatización del hogar.
+
+
 
 Y con jugadores tan establecidos, ya es muy difícil que logre meterse en esos mercados de forma significativa.
 
