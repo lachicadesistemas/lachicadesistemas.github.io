@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft una vez llamó 'Cancer' a Linux
+title: Microsoft una vez llamó 'Cancer' a Linux
 subtitle: Y fue un error gravísimo.
 share-img: /assets/img/tecnologia-2025-05-18.png
 date: 2025-05-18
