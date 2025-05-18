@@ -9,8 +9,6 @@ author: Alexia
 tags: [opinión, historia, tecnología]
 ---
 
-## Microsoft una vez llamó “cáncer” a Linux, y fue un gran error
-
 Durante años, Microsoft fue hostil hacia Linux. Y aunque hoy en día su relación con el software libre cambió muchísimo, las cicatrices de esa guerra todavía se notan.
 
 Allá por el 2001, el entonces CEO de Microsoft, **Steve Ballmer**, dijo una frase que quedó en la historia:
