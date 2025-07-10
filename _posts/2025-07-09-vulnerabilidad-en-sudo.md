@@ -8,8 +8,6 @@ author: Alexia
 tags: [seguridad, ciberseguridad, linux, vulnerabilidades, sudo, cve, sysadmin]
 ---
 
-# Vulnerabilidades críticas en Sudo permiten a usuarios locales obtener acceso root en Linux
-
 Investigadores de ciberseguridad han revelado dos fallas de seguridad en la utilidad de línea de comandos **Sudo** para Linux y sistemas operativos tipo Unix que podrían permitir a atacantes locales escalar privilegios hasta root en máquinas vulnerables.
 
 ## Descripción breve de las vulnerabilidades
