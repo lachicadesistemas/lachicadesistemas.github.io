@@ -12,7 +12,7 @@ tags: [linux, windows10, migración, opensource, foss, oss, europa, euro, tenden
 ## Un crecimiento inédito de Linux en Europa ante el fin de vida de Windows 10
 
 Millones de personas que usan Windows 10 se enfrentan a una decisión difícil. Microsoft planea dejar de ofrecer actualizaciones de seguridad para ese sistema, dejando a un sinfín de computadoras 
-vulnerables. Para muches, actualizar a Windows 11 simplemente no es una opción: su hardware no es lo suficientemente nuevo. Esta situación está llevando a muches usuaries a buscar alternativas.
+vulnerables. Para muchas personas, actualizar a Windows 11 simplemente no es una opción: su hardware no es lo suficientemente nuevo. Esta situación está llevando a muchos usuarios a buscar alternativas.
 
 Pero acá aparece un giro inesperado en el mundo tech: **Linux**, un sistema operativo libre y gratuito, **está explotando en Europa**. Su crecimiento es más rápido que nunca. Este salto sorprendente 
 sugiere un verdadero cambio en la forma en que las personas eligen el software de sus computadoras.
@@ -27,7 +27,7 @@ incluso con algunos repuntes durante la pandemia. Este crecimiento actual es rea
 ## ¿Por qué ahora?
 
 Una de las razones principales de esta popularidad repentina es, sin dudas, la decisión de Microsoft sobre Windows 10. Cuando termine el soporte, **cientos de millones de computadoras quedarán sin 
-actualizaciones críticas de seguridad**. Muchas de estas máquinas siguen funcionando perfectamente, pero **no pueden ejecutar Windows 11**. En lugar de comprar hardware nuevo, muches optan por otro 
+actualizaciones críticas de seguridad**. Muchas de estas máquinas siguen funcionando perfectamente, pero **no pueden ejecutar Windows 11**. En lugar de comprar hardware nuevo, muchas personas optan por otro 
 camino.
 
 ## La solución de código abierto
@@ -37,7 +37,7 @@ La comunidad del software libre está aprovechando esta oportunidad para tender 
 Algunas distribuciones, como **Zorin OS**, están diseñadas para que la transición desde Windows sea **fácil y familiar**. Además, programas conocidos como **LibreOffice** ofrecen guías para que 
 usuaries acostumbrades a Microsoft Office se adapten sin dramas.
 
-No es la primera vez que vemos una migración de este estilo. En 2021, cuando terminó el soporte de Windows 7, muches usuaries también se volcaron a Linux. Pero esta vez, todo indica que el fenómeno 
+No es la primera vez que vemos una migración de este estilo. En 2021, cuando terminó el soporte de Windows 7, muchos usuarios también se volcaron a Linux. Pero esta vez, todo indica que el fenómeno 
 es más grande y más acelerado.
 
 ![Crecimiento de Linux en Europa 2024-2025](/assets/img/art20250712crecimiento.png)
