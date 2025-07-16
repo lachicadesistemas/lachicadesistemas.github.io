@@ -25,16 +25,16 @@ Pero, ¿qué es un **byte** y por qué todo el mundo habla de ellos como si fuer
 
 Antes de hablar de byte, vamos con el bit:  
 Un **bit** es la unidad mínima de información. Puede valer **0** o **1**.  
-Es como una lucecita que puede estar apagada (0) o encendida (1).  De hecho es eso. Es un pulso electrico. Pero si quieren saber mas miren mi video en youtube sobre Historia de la computación donde hablo en profundidad de todo esto.
+Es como una lucecita que puede estar apagada (0) o encendida (1).  De hecho es eso. Es un pulso eléctrico. Pero si quieren saber mas miren mi video en youtube sobre Historia de la computación donde hablo en profundidad de todo esto.
 
 Volviendo al bit, la cosa es que los bits por si sólos no pueden hacer demasiado, es por eso que se agrupan en grupitos de 8.
 
-## ¿Por qué 8 bits? El origen del byte
+## ¿Por qué 8 bits? - El origen del byte
 
 Como acabo de mencionar, un **byte** es simplemente un grupo de **8 bits**.
 
 Pero… ¿por qué 8 y no 5, 6 o 10?  
-Bueno por que en la decada del 60, cuando IBM diseñaba sus primeras computadoras, necesitaban una manera estándar de almacenar un **carácter** (una letra, un número, un signo de puntuación).  
+Bueno por que en la decada del 60, cuando IBM diseñaba sus primeras computadoras, necesitaban una manera estándar de almacenar un **caracter** (una letra, un número, un signo de puntuación).  
 Después de probar diferentes opciones, se dieron cuenta que con 8 bits podían representar **256 combinaciones distintas** (de 00000000 a 11111111), más que suficiente para todos los caracteres del alfabeto, números, símbolos y hasta algunas instrucciones especiales.
 
 Es decir, un “byte” era la cantidad mínima de información suficiente para almacenar un carácter.  
