@@ -122,7 +122,7 @@ Seguro alguna vez compraste un disco rígido, pendrive o memoria que prometía t
 - **1 TB = 1.000.000.000.000 bytes** (mil millones de bytes)
 
 **Pero tu sistema operativo** lo calcula en sistema binario:  
-- **1 TiB (tebibyte) = 1.099.511.627.776 bytes** (1024^4)
+- **1 TiB (tebibyte) = 1.099.511.627.776 bytes** (1024^4 o 1024 elevado a la cuarta potencia)
 
 Entonces, cuando tu compu recibe esos mil millones de bytes y los divide en bloques de 1024, el resultado es menos de 1 “TB” en términos binarios:
 
