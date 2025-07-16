@@ -72,4 +72,60 @@ Un **byte** es:
 Así que la próxima vez que veas cuánto pesa una foto, o cuánta memoria tiene tu computadora, ahora sabés que, en el fondo, todo se reduce a la cantidad de caracteres que tu memoria ram o tus discos pueden almacenar, o a que velocidad tanta cantidad de caracteres se pueden transferir.
 ---
 
+## ¿Por qué un megabyte son 1024 kilobytes y no 1000?
+
+Acá hay una historia divertida (¡y un poco polémica!) sobre los múltiplos en informática.
+
+En la vida cotidiana, usamos el sistema decimal: 1 kilómetro = 1000 metros, 1 kilogramo = 1000 gramos. Pero en computación, los múltiplos suelen ser potencias de 2, no de 10.  
+¿Por qué? Porque las computadoras usan el sistema binario, donde todo se basa en ceros y unos.
+
+### Potencias de 2: la clave del asunto
+
+- 1 kilobyte (KB) = **1024 bytes**  
+- 1 megabyte (MB) = **1024 kilobytes**  
+- 1 gigabyte (GB) = **1024 megabytes**
+
+Esto ocurre porque 1024 es **2^10** (2 elevado a la décima potencia).  
+Elegir 1024 y no 1000 hace que el conteo “encaje perfecto” en la arquitectura binaria de la memoria y almacenamiento de una computadora.
+
+### ¿Entonces, 1000 o 1024?
+
+Originalmente, los ingenieros usaban “kilo” para referirse a 1024 porque es muy cercano a 1000, pero no exactamente igual.  
+Eso generó confusión. Para la mayoría de la gente, “kilo” siempre fue mil. Por eso, en los años 90, un comité internacional propuso nuevos nombres para evitar líos:
+
+- **1 kibibyte (KiB) = 1024 bytes**  
+- **1 kilobyte (kB) = 1000 bytes**  
+- **1 mebibyte (MiB) = 1024 KiB**  
+- **1 megabyte (MB) = 1000 kB**
+
+Pero… la mayoría de la industria siguió usando “kilobyte” y “megabyte” para referirse a 1024.  
+Por eso, cuando comprás un disco o una memoria, a veces ves menos espacio disponible: los fabricantes usan 1 MB = 1.000.000 de bytes (decimal), pero la compu lo calcula en base 1024 (binario).  
+¡Así que no te están robando, solo están usando otra definición!
+
+---
+
+**Resumen rápido:**  
+- En informática tradicional:  
+  - **1 KB = 1024 bytes**  
+  - **1 MB = 1024 KB**  
+  - Porque la base es binaria (potencias de 2)
+- En el sistema internacional:  
+  - **1 kB = 1000 bytes**  
+  - Pero esto casi no se usa en la vida real digital
+
+  ### Y para ir cerrando.. Sabian que sus discos de 1TB tienen menos de "1TB"?
+
+Seguro alguna vez compraste un disco rígido, pendrive o memoria que prometía tener **1 TB** (terabyte), pero cuando lo conectaste a la computadora… ¡aparecían menos de 1 TB disponibles!  
+¿Te estafaron? ¡No! Es solo un truco de unidades.
+
+**Los fabricantes de discos** cuentan el terabyte en sistema decimal:  
+- **1 TB = 1.000.000.000.000 bytes** (mil millones de bytes)
+
+**Pero tu sistema operativo** lo calcula en sistema binario:  
+- **1 TiB (tebibyte) = 1.099.511.627.776 bytes** (1024^4)
+
+Entonces, cuando tu compu recibe esos mil millones de bytes y los divide en bloques de 1024, el resultado es menos de 1 “TB” en términos binarios:
+
+
+
 _Por Alexia Michelle_
