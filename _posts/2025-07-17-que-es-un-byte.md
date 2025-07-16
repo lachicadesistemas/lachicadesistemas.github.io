@@ -71,23 +71,5 @@ Un **byte** es:
 
 Así que la próxima vez que veas cuánto pesa una foto, o cuánta memoria tiene tu computadora, ahora sabés que, en el fondo, todo se reduce a la cantidad de caracteres que tu memoria ram o tus discos pueden almacenar, o a que velocidad tanta cantidad de caracteres se pueden transferir.
 ---
-## 🧮 Cuadro explicativo: Bits vs. Bytes
-
-<div style="background: #f8f8f8; border-radius: 8px; padding: 1em 1.5em; margin-bottom: 1em; border: 1px solid #ddd; max-width: 420px;">
-<b>Bit</b>  
-- Es la unidad mínima de información digital  
-- Sólo puede valer <b>0</b> o <b>1</b>  
-- Se abrevia como <b>b</b> (minúscula)
-
-<b>Byte</b>  
-- Conjunto de <b>8 bits</b>  
-- Puede valer de <b>0</b> a <b>255</b>  
-- Suficiente para representar un carácter  
-- Se abrevia como <b>B</b> (mayúscula)
-
-<b>Ejemplo:</b>  
-1 byte = <b>10101100</b> (o cualquier combinación de 8 ceros y unos)
-</div>
-
 
 _Por Alexia Michelle_
