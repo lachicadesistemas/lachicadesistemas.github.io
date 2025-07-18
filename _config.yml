@@ -8,9 +8,9 @@ navbar-links:
     - Twitter: "https://x.com/alexiarsteinn"
     - Youtube: "https://youtube.com/@lachicadesistemas"
     - Instagram: "https://instagram.com/lachicadesistemas"
-    - bsky.social: "https://bsky.app/profile/lachicadesistemas.bsky.social"
+    - bsky.social: "https://bsky.app/profile/lexi.lat"
     - Github: "https://github.com/alexiarstein"
-    - Discord: "https://discord.gg/R6Xkr5SDWG"
+    - Discord: "https://lexi.lat/discord"
 #  Author's home: "https://blog.lexi.lat"
 avatar: "/assets/img/peach.gif"
 
@@ -20,7 +20,7 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 social-network-links:
-  email: "alexiarstein@aol.com"
+  email: "hola@goldendoglinux.org"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattal
   github: alexiarstein

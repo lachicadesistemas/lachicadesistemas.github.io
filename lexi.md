@@ -6,7 +6,7 @@ subtitle: Who the heck is lexi?
 
 ### About Me.
 
-Hello there! I am Alexia (pronounced ah-LEK-see-ah / IPA: /ɐlˈɛksi‍a/) and I currently work as a Systems Administrator (RHCSA, EX RH200) full time, OpenShift admin (DO180) and working with some 
+Hello there! I am Alexia (pronounced ah-LEK-see-ah / IPA: /ɐlˈɛksi‍a/) and I currently work as a Systems Administrator (RHCSA, EX RH200) full time, OpenShift admin (DO180/DO280) and working with some 
 large-scale devOps projects in the financial sector.
 
 I began my Linux journey at a very young age, an accidental career path that some might find rather unusual for a teenage girl. However, what many people might not be aware of is that my passion for 
