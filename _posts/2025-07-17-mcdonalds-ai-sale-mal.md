@@ -9,9 +9,6 @@ author: Alexia
 tags: [ciberseguridad, inteligencia-artificial, privacidad, noticias]
 ---
 
-
-## McDonald’s: Brecha en su bot de contratación con IA expuso datos personales de millones de postulantes
-
 Un error de seguridad en la plataforma de selección de personal de McDonald's en Estados Unidos, gestionada por la empresa de inteligencia artificial **Paradox.ai**, permitió que hackers pudieran acceder fácilmente a los datos personales de millones de postulantes a través del sitio **McHire.com**.
 
 ### ¿Qué pasó?
