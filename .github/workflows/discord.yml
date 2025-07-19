@@ -17,4 +17,4 @@ jobs:
           LATEST_POST_URL=$(curl -s "$RSS_FEED_URL" | grep -oP '(?<=<link>).*?(?=</link>)' | head -n 1)
 
           # Send the notification to Discord
-          curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"A new article has been published! Check it out: $LATEST_POST_URL\"}" Yhttps://discord.com/api/webhooks/1078205526309085204/bZCSL_9iQXYXIrrSGDPnJLZ8BtBQkIx950zQ6hgKDm_fLEr54PA2S6le1b24FufrwtNJ  # Replace with your Discord webhook URL
+          curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"A new article has been published! Check it out: $LATEST_POST_URL\"}" https://discord.com/api/webhooks/1078205526309085204/bZCSL_9iQXYXIrrSGDPnJLZ8BtBQkIx950zQ6hgKDm_fLEr54PA2S6le1b24FufrwtNJ  # Replace with your Discord webhook URL
