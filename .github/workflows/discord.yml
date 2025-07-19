@@ -3,7 +3,7 @@ name: Notify Discord on New Post
 on:
   push:
     branches:
-      - main  # Change this to your default branch if it's different
+      - master  # Change this to your default branch if it's different
 
 jobs:
   notify:
@@ -13,7 +13,7 @@ jobs:
       - name: Send Discord Notification
         run: |
           # Fetch the RSS feed
-          RSS_FEED_URL="https://yourusername.github.io/your-repo-name/feed.xml"  # Replace with your RSS feed URL
+          RSS_FEED_URL="https://lexi.lat/feed.xml"  # Replace with your RSS feed URL
           LATEST_POST_URL=$(curl -s "$RSS_FEED_URL" | grep -oP '(?<=<link>).*?(?=</link>)' | head -n 1)
 
           # Send the notification to Discord
