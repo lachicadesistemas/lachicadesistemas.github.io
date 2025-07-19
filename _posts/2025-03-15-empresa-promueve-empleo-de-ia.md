@@ -34,7 +34,7 @@ Sí, es un tema sombrío. A primera vista, podrías preguntarte quién es el pú
 los humanos disfrutan de tener un empleo. Por lo tanto, parece una campaña mediática que discrimina a su audiencia principal. Sin embargo, debajo de la ridiculez inicial, hay una explicación obvia: los anuncios están diseñados 
 para hacer enojar a la gente y, de este modo, captar titulares.
 
-![Crepe]({{ '/assets/img/artisan1.png' | relative_url }})
+![artisan]({{ '/assets/img/artisan1.png' | relative_url }})
 
 En una entrevista con SFGate, el CEO de la compañía, Jaspar Carmichael-Jack, defendió la decisión de su empresa de anunciar su producto promoviendo el fin de la fuerza laboral humana. “Son algo distópicos, pero también lo es la 
 IA”, dijo el CEO a SFGate, sobre los anuncios. “La forma en que funciona el mundo está cambiando.” Agregó: “Queríamos algo que llamara la atención — no atraes miradas con mensajes aburridos.”
