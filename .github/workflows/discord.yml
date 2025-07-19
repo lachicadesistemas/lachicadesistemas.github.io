@@ -1,0 +1,20 @@
+name: Notify Discord on New Post
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if it's different
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord Notification
+        run: |
+          # Fetch the RSS feed
+          RSS_FEED_URL="https://yourusername.github.io/your-repo-name/feed.xml"  # Replace with your RSS feed URL
+          LATEST_POST_URL=$(curl -s "$RSS_FEED_URL" | grep -oP '(?<=<link>).*?(?=</link>)' | head -n 1)
+
+          # Send the notification to Discord
+          curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"A new article has been published! Check it out: $LATEST_POST_URL\"}" Yhttps://discord.com/api/webhooks/1078205526309085204/bZCSL_9iQXYXIrrSGDPnJLZ8BtBQkIx950zQ6hgKDm_fLEr54PA2S6le1b24FufrwtNJ  # Replace with your Discord webhook URL
