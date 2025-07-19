@@ -12,7 +12,6 @@ tags: [byte, bit, historia, etimologia, informatica]
 
 # ¿Qué es un byte?
 
-
 Todos nuestros dispositivos electrónicos hablan un mismo idioma, o mejor dicho, un sistema de numeración específico.
 
 Los sistemas de numeración más conocidos son el decimal, el octal (base 8) el hexadecimal (base 16) y el binario (base 2).
