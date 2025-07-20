@@ -2,7 +2,7 @@
 layout: post
 title: "Jugando con GitOps, Webhooks y un poco de automatización recreacional"
 subtitle: "Por que nunca está de más practicar con estas cosas, ¿No?"
-date: 2025-07-19
+date: 2025-07-20
 share-img: /assets/img/tecnologia-2025-05-18.png
 layout: post
 author: Alexia
