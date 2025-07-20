@@ -9,11 +9,6 @@ author: Alexia
 tags: [ciberseguridad, inteligencia-artificial, privacidad, noticias]
 ---
 
----
-date: 2025-07-18
-layout: post
----
-
 ## Un cambio radical en la gestión de vulnerabilidades
 
 Hace casi un año que el equipo desarrollador del Kernel Linux se convirtió en **CVE Numbering Authority (CNA)**, marcando un giro historico en la manera de rastrear y divulgar vulnerabilidades en el kernel.  Pero Lejos de ser una simple “oleada” temporal, el flujo de nuevos CVEs no solo se ha mantenido sino que en 2025 crece exponencialmente y a un ritmo inédito.
