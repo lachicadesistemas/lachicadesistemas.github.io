@@ -2,7 +2,7 @@
 layout: post
 title: "Google lanza OSS Rebuild: seguridad y transparencia para el software open source"
 subtitle: "Verificando paquetes PyPI, npm y Crates.io antes de instalarlos"
-date: 2025-07-23
+date: 2025-07-22
 share-img: /assets/img/google-ossrebuild.png
 author: Alexia
 tags: [seguridad, open-source, google, sysadmin, devops, python, nodejs, rust]
