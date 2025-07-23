@@ -81,5 +81,6 @@ OSS Rebuild suma una capa de transparencia y confianza al ecosistema open source
 En un mundo donde los ataques a la cadena de suministro son cada vez más sofisticados, sumar este tipo de chequeos debería volverse un hábito, igual que mirar los logs o hacer backups.
 
 
+
 Fuente: [Google Security Blog](https://security.googleblog.com/2025/07/introducing-oss-rebuild-open-source.html)
 
