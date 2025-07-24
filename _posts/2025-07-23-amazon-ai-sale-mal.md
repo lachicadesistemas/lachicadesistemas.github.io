@@ -2,7 +2,7 @@
 layout: post
 title: "Cuando tu asistente de IA casi borra todo: el caso Amazon Q y la lección que nadie aprendió"
 subtitle: "Un actor malicioso metió un prompt destructivo y Amazon lo publicó. ¿Estamos listos para delegarle tanto poder a la IA?"
-date: 2025-07-24
+date: 2025-07-23
 share-img: /assets/img/amazon-q-breach.png
 author: Alexia
 tags: [seguridad, IA, amazon, sysadmin, desarrollo, vulnerabilidad]
