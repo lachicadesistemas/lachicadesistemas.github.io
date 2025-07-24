@@ -42,7 +42,6 @@ Era… ¡un prompt!
 Tan simple, tan brutal, tan posible que da escalofríos.
 
 Y si no te enteraste, es porque Amazon borró la versión comprometida en silencio. Ni changelog, ni CVE, ni comunicado.  
-Si no leés medios como [404 Media](LINK_AQUI), ni te enterás.
 
 ## Ejemplo: ¿qué puede pasar en tu día a día?
 
