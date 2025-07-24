@@ -31,6 +31,5 @@ jobs:
       - name: Send Discord Notification
         run: |
           RSS_FEED_URL="https://lexi.lat/feed.xml"
-          LATEST_POST_URL=$(curl -s "$RSS_FEED_URL" | grep -oP '(?<=<link>).*?(?=</link>)' | sed -n '2p')
+          LATEST_POST_URL=$(curl -s "$RSS_FEED_URL" | awk -F'[<>]' '/<item>/{flag=1} flag && /<link>/{print $3; exit}')
           curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"Alexia acaba de publicar un nuevo artículo! Leelo aquí: $LATEST_POST_URL\"}" https://discord.com/api/webhooks/1395954872989520053/3ftU7hAUSz2uI7D4QvDcGmgfXacSvdW-9_m1PLaOBHa3ylf_JKls_AS__ecOe8Y_eHol
-
