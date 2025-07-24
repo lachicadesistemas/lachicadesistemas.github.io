@@ -12,7 +12,7 @@ tags: [seguridad, IA, amazon, sysadmin, desarrollo, vulnerabilidad]
 
 Hace un rato estaba descansando de mi jornada laboral, poniendome al día con las noticias tech y [Me topé con esta nota de 404 Media](https://www.404media.co/hacker-plants-computer-wiping-commands-in-amazons-ai-coding-agent) y Honestamente quedé así: O.O 
 
-Así que te lo resumo:
+Así que te lo resumo: 
 
 ## No fue un bug: fue una bomba con release notes
 
