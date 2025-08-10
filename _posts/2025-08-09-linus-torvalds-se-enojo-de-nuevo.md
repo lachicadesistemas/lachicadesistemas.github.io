@@ -3,7 +3,7 @@ layout: post
 title: "Linus Torvalds se enojó de nuevo"
 subtitle: "Esta vez con desarrolladores de RISC-V del kernel"
 date: 2025-08-09
-share-img: /assets/img/linus-riscv.png
+share-img: /assets/img/torvalds-riscv.png
 author: Alexia
 tags: [linux, kernel, torvalds, risc-v, sysadmin]
 ---
