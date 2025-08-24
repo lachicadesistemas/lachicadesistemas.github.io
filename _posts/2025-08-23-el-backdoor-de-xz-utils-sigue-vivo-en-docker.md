@@ -81,7 +81,7 @@ Se identificaron **imágenes Debian** de marzo de 2024 con el backdoor, aún dis
   docker inspect <img> --format '{{json .RepoDigests}}' | jq .
   docker history --no-trunc <img>
 ```
-Si usás digests antiguos (marzo 2024 en Debian sid/testing/trixie), considerá sospechoso.
+Si usás digests antiguos (marzo 2024 en Debian sid/testing/trixie), consideralos sospechosos.
 
 2) Escanear imágenes y binarios
 
