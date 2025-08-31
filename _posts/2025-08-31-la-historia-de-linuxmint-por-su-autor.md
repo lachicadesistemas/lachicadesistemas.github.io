@@ -99,4 +99,4 @@ Mint no busca crecer como una empresa tradicional con oficinas e inversores. Cle
 El foco sigue siendo el mismo desde 2006: ofrecer un escritorio estable, amigable y centrado en los usuarios.
 
 
-Artículo original (en inglés, recuperado gracias a **archive.org**) (https://web.archive.org/web/20220528052021/http://staging.computerworld.in/interview/clement-lefebvre-man-behind-linux-mint)[https://web.archive.org/web/20220528052021/http://staging.computerworld.in/interview/clement-lefebvre-man-behind-linux-mint]
+Artículo original (en inglés, recuperado gracias a **archive.org**) [https://web.archive.org/web/20220528052021/http://staging.computerworld.in/interview/clement-lefebvre-man-behind-linux-mint](https://web.archive.org/web/20220528052021/http://staging.computerworld.in/interview/clement-lefebvre-man-behind-linux-mint)
