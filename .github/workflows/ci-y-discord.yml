@@ -1,0 +1,35 @@
+name: Build Jekyll and Notify Discord
+
+on:
+  push:
+    branches:
+      - master  # Solo disparo el action si el push se hizo a la rama principal
+
+jobs:
+  build:
+    name: Build Jekyll
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build the site in the jekyll/builder container
+        run: |
+          export JEKYLL_VERSION=4.2.2
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          -e PAGES_REPO_NWO=${{ github.repository }} \
+          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build --future"
+
+  notify:
+    name: Notify Discord
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Esperar RSS update
+        run: sleep 20 #esperamos 20 segundos para que se actualice el feed
+
+      - name: Send Discord Notification
+        run: |
+          RSS_FEED_URL="https://lexi.lat/feed.xml"
+          LATEST_POST_URL=$(curl -s "$RSS_FEED_URL" | awk -F'[<>]' '/<item>/{flag=1} flag && /<link>/{print $3; exit}')
+          curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"Alexia acaba de publicar un nuevo artículo! Leelo aquí: $LATEST_POST_URL\"}" https://discord.com/api/webhooks/1395954872989520053/3ftU7hAUSz2uI7D4QvDcGmgfXacSvdW-9_m1PLaOBHa3ylf_JKls_AS__ecOe8Y_eHol
