@@ -3,7 +3,7 @@ layout: post
 title: "Qué es Secure Boot y cómo funciona Shim en Linux"
 subtitle: "Una cadena de confianza que protege… y a veces complica"
 share-img: /assets/img/art202501xxsecureboot.png
-date: 2025-01-XX
+date: 2025-11-24
 author: Alexia
 tags: [linux, secureboot, shim, uefi, seguridad, kernel, foss, oss, arranque]
 ---
