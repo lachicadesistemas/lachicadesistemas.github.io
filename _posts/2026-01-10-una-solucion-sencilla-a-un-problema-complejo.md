@@ -6,7 +6,7 @@ tags: [linux, software, programación]
 author: Alexia 
 ---
 
-En otro capitulos de _Historias de una desarrolladora backend armando una distro linux_, quería compartir con ustedes que desde que comencé con el desarrollo de GoldenDog Linux 2 muchas cosas han sucedido. Fundamentalmente por que no solo se trataba de lanzar una versión modernizada de goldendog, sinó que también se trataba de modernizar el flujo de trabajo para que sea lo más similar al del desarrollo de un sistema operativo linux profesional.
+En otro capítulo de _Historias de una desarrolladora backend armando una distro linux_, quería compartir con ustedes que desde que comencé con el desarrollo de GoldenDog Linux 2 muchas cosas han sucedido. Fundamentalmente por que no solo se trataba de lanzar una versión modernizada de goldendog, sinó que también se trataba de modernizar el flujo de trabajo para que sea lo más similar al del desarrollo de un sistema operativo linux profesional.
 
 Así que GoldenDog 2 son dos desarrollos en simultaneo, por un lado el desarrollo de todo el "Como se construye GoldenDog", es decir el diseño del workflow y todo el tooling, y luego el desarrollo de la distro propiamente dicha.
 
