@@ -7,11 +7,11 @@ author: Alexia
 tags: [kernel, exploit, debian, dirtyfrag, sysadmin]
 ---
 
-Recientemente se ha hecho público un exploit denominado **"Dirty Frag"** que afecta directamente al kernel Linux. En mis pruebas personales sobre una VM corriendog **Goldendog 2 (Debian Trixie)**, he podido confirmar que la vulnerabilidad es real: permite escalar privilegios a root de manera local sin necesidad de `sudo`, lo cual es extremadamente crítico para cualquier entorno de producción.
+Recientemente se ha hecho público un exploit denominado **"Dirty Frag"** que afecta directamente al kernel Linux. En mis pruebas personales con una VM descartable corriendo **Goldendog 2 (Base Debian Trixie)**, he podido confirmar que la vulnerabilidad es real: permite escalar privilegios a la cuenta root sin necesidad de `sudo`, lo cual es extremadamente crítico para cualquier entorno de producción.
 
 Este fallo fue descubierto por [Hyunwoo Kim (@v4bel)](https://x.com/v4bel) y el código fuente del PoC está disponible en [GitHub](https://github.com/V4bel/dirtyfrag).
 
-Dirty Frag pertenece a la misma familia que las conocidas vulnerabilidades [Dirty Pipe](https://dirtypipe.cm4all.com/) y [Copy Fail](https://copy.fail/). A diferencia de muchos exploits, **no requiere condiciones de carrera (race conditions)**: es un bug lógico determinístico, lo que significa que tiene una tasa de éxito muy alta y el kernel no entra en pánico si el exploit falla.
+Dirty Frag pertenece a la misma familia que las conocidas vulnerabilidades [Dirty Pipe](https://dirtypipe.cm4all.com/) y [Copy Fail](https://copy.fail/). A diferencia de muchos exploits, **no requiere race conditions** sino que es un bug lógico determinístico, lo que significa que tiene una tasa de éxito muy alta y el sistema no tira kernel panic si el exploit falla.
 
 El ataque encadena dos vulnerabilidades:
 - **xfrm-ESP Page-Cache Write** (presente desde 2017)
