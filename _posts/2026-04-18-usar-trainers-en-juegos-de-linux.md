@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como usar trainers tipo WeMod en Linux
+title: "Como usar trainers tipo WeMod en Linux"
 date: 2026-04-18
 author: Alexia
 tags: [linux, hacking, gaming, modding]
