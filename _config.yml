@@ -10,8 +10,7 @@ navbar-links:
     - Instagram: "https://instagram.com/lachicadesistemas"
     - bsky.social: "https://bsky.app/profile/lexi.lat"
     - Github: "https://github.com/alexiarstein"
-    - Discord: "https://lexi.lat/discord"
-#  Author's home: "https://blog.lexi.lat"
+#  Author's home: "https://blog.lexiworks.dev"
 avatar: "/assets/img/peach.gif"
 
 round-avatar: true
@@ -67,7 +66,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "lexi.lat"
+url-pretty: "blog.lexiworks.dev"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
