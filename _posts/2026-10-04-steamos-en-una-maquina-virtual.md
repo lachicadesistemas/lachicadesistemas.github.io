@@ -15,7 +15,7 @@ Así que lo instalé en una máquina virtual con **QEMU/KVM** sobre **Debian 13*
 Paso a explicar cómo lo instalé, por qué queda en negro y cómo lo solucioné.
 
 Algo a considerar es que se van a necesitar 2 discos, uno para la instalación y otro para donde se instalará el sistema. Es vueltero steamOS? Si. Pero también es razonable entender que no es un sistema universal sino que está muy cortado a medida para la 
-steamDeck, asi que todos estos hacks los hice no por que sea malo, sinó por que estamos intentnado correrlo en una plataforma para la cual no fue diseñado.
+steamDeck, asi que todos estos hacks los hice no por que sea malo, sino por que estamos intentando correrlo en una plataforma para la cual no fue diseñado.
 
 ### Paso 1: Instalar Dependencias
 
