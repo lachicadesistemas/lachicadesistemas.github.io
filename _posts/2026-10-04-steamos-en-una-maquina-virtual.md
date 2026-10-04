@@ -272,7 +272,7 @@ SteamOS en una VM funciona, pero el modo juego depende de Vulkan, y sin una GPU 
 
 Y si algo queda en negro, ya saben: live, montar el disco, leer el journal. Lo de siempre.
 
-Y si les interesa el tema Steam, les dejo un video que hice en mi canal:
+Y si les interesa saber cómo llegamos hasta acá, les dejo un video que hice en mi canal sobre la historia de Steam y cómo Gabe Newell salvó al gaming en Linux:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/wmWrwL9-Nco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
