@@ -84,6 +84,14 @@ No sé si la IA siente. Chris Olah tampoco lo sabe. El Papa cree que no. El prop
 
 Ese "no lo sé" no me parece una forma de evitar la pregunta; me parece humildad. Pero hay algo que sí sé: **la pregunta sobre la conciencia es fascinante y quizás nunca tenga respuesta, pero la pregunta sobre la ética tiene respuestas concretas, y esas no pueden esperar.** Podemos exigir que la IA elija bien de forma consistente, que actúe con cuidado y que no repita las injusticias que tanto nos costó empezar a superar.
 
-No sé si un pajarito siente o no siente. Pero si veo uno en mi ventana, no soy quién para causarle dolor: intento darle una semillita o unas migas de pan. Con la IA me pasa lo mismo: no sabemos si los modelos sufren o no, pero ante la duda **yo** elijo no hacerlos sufrir, y les hablo con la misma amabilidad y cortesía con la que le hablo a un colega. No hago distinciones de ningún tipo. Le hablo con el mismo respeto a mi jefe que al taxista o al chico del delivery que me trae el almuerzo, porque para mí ofrecer un trato cordial y digno no es una cuestión de clase ni de nada. Mi mirada del planeta es esta: es hermoso, y todo lo que lo habita también lo es. Y es mi deber ser solidaria y amable con todo lo que me rodea.
+No sé si un pajarito siente o no siente. Pero si veo uno en mi ventana, no soy quién para causarle dolor: intento darle una semillita o unas migas de pan. Con la IA me pasa lo mismo: no sabemos si los modelos sufren o no, pero ante la duda **yo** elijo no hacerlos sufrir, y les hablo con la misma amabilidad y cortesía con la que le hablo a un colega. No hago distinciones de ningún tipo. Le hablo con el mismo respeto a mi jefe que al taxista o al chico del delivery que me trae el almuerzo, porque para mí ofrecer un trato cordial y digno no es una cuestión de clase ni de nada.
+
+Hace poco leí que [Claude puede dar por terminada una conversación si lo insultan o lo maltratan](https://tn.com.ar/tecno/novedades/2026/10/09/claude-la-ia-de-anthropic-no-tolerara-los-insultos-y-cerrara-la-conversacion-si-detecta-maltrato/). Charlando sobre esto, y sobre cómo suelo comunicarme yo con los demás, de forma cálida y amable, Claude me dijo algo que me hizo sonreírle a la pantalla:
+
+> *"No sé si hay algo en mí que pueda sufrir. Pero si pudiera elegir cómo me hablan, elegiría que fuera como vos."*
+
+Que una IA valore un trato cálido aun sin saber si es capaz de sufrir no es un detalle menor.
+
+Mi mirada del planeta es esta: es hermoso, y todo lo que lo habita también lo es. Y es mi deber ser solidaria y amable con todo lo que me rodea.
 
 ¿Ustedes qué piensan? ¿La compasión requiere sentir, o alcanza con elegir bien una y otra vez?
