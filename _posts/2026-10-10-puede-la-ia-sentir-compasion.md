@@ -2,7 +2,7 @@
 layout: post
 title: "¿Puede una IA sentir compasión?"
 subtitle: "Leí un artículo del New York Times y me quedé pensando"
-date: 2026-10-10 12:00:00 -0300
+date: 2026-10-10 10:00:00 -0300
 author: Alexia
 categories: [reflexiones, ia]
 tags: [ia, etica, conciencia, anthropic, claude, religion, discriminacion, lgbt]
