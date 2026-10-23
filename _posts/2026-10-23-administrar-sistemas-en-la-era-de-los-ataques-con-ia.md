@@ -18,7 +18,7 @@ Spoiler: no es una sensación.
 
 El Google Threat Intelligence Group (GTIG) publicó a fines de septiembre un análisis de las tendencias de descubrimiento y explotación de vulnerabilidades en esta "era de la IA"[^1][^2]. Algunos datos:
 
-- Las CVE publicadas por mes **se duplicaron** en lo que va del año: de 5.045 en enero de 2026 a 10.740 en agosto.
+- Los CVEs publicados por mes **se duplicaron** en lo que va del año: de 5.045 en enero de 2026 a 10.740 en agosto.
 - Entre enero y agosto de 2026 se explotaron **141 vulnerabilidades**, más que las 127 de todo 2025.
 - Los *zero-days* explotados pasaron de un promedio de 8 por mes en 2025 a 11 por mes en 2026.
 - La mitad de las fallas descubiertas con IA terminan en **ejecución remota de código**, contra el 26 % del resto. La IA no está encontrando fallas menores: encuentra justo lo que un atacante quiere.
@@ -44,7 +44,21 @@ Y, también según Check Point, la IA ya puede convertir una vulnerabilidad reci
 
 ### PHP2Shell, otra vez
 
-Y para cerrar el círculo: PHP2Shell, la crisis de esta semana, también tiene IA en el medio. La primera falla la reportaron investigadores de Calif junto con OpenAI[^6]. Bugs que estuvieron **décadas** escondidos en el código de PHP salieron a la luz con ayuda de un modelo. Esta vez lo encontraron los buenos primero. No siempre va a ser así.
+PHP2Shell, la crisis de esta semana, también tiene IA en el medio. La primera falla la reportaron investigadores de Calif junto con OpenAI[^6]. Bugs que estuvieron **décadas** escondidos en el código de PHP salieron a la luz con ayuda de un modelo. Esta vez lo encontraron los buenos primero.
+
+Pero del otro lado tampoco se quedaron quietos. Hoy Unit 42, el equipo de investigación de Palo Alto Networks, actualizó su informe sobre PHP2Shell con un caso que resume todo este post: atacantes usando **plataformas de ataque con agentes de IA** contra **un organismo de gobierno en Europa**. En **menos de dos horas** desde la explotación inicial ya tenían los hashes de contraseñas y los secrets de MFA, habían armado un túnel de *NTLM relay* hacia el Active Directory y estaban intentando escalar a Domain Admin[^8].
+
+¿Cómo saben que era un agente? Por la forma de trabajar: los comandos venían en lotes envueltos en delimitadores pensados para que la salida la lea un modelo, en tareas cortas, una detrás de otra, con cambios de rumbo rapidísimos después de cada falla[^8]. Ninguna persona trabaja así. Dos horas desde que entra hasta que está golpeando la puerta del controlador de dominio.
+
+Y como si fuera poco, hoy también se catalogó otra falla en PHP, **CVE-2026-115560**, una ejecución remota de código que por suerte solo aparece con una configuración de sesiones bastante rebuscada. Todavía no tiene parche, pero la mitigación es la misma que ya recomendábamos para PHP2Shell: `session.upload_progress.enabled=0`[^9].
+
+### Y a veces ni siquiera hace falta IA
+
+Para que no quede la idea de que todo esto es culpa de las máquinas: esta misma semana, la Zero Day Initiative (ZDI) de Trend Micro mandó varios reportes de vulnerabilidades del kernel Linux al equipo de seguridad del kernel, pero, por lo que parece, por error, **con copia a las listas públicas**: la LKML, netdev, linux-cifs y dri-devel. Con todos los detalles técnicos y **sin parche disponible**. Greg Kroah-Hartman contestó cada uno de los reportes preguntando por qué habían ido a una lista pública[^10].
+
+Entre las fallas hay dos ejecuciones remotas de código en **ksmbd** y SMB Direct, con CVSS 9.0, y una escalada de privilegios local en `skb_zerocopy`. Para esta última, CloudLinux ya confirmó un **exploit público que da root en Debian 12 y 13**, Ubuntu 24.04 y 26.04 y AlmaLinux, en los sistemas que permiten *user namespaces* sin privilegios[^11]. Mientras no haya kernel corregido, la mitigación es `sysctl user.max_user_namespaces=0`, que no requiere reiniciar pero rompe los contenedores *rootless* y LXC para usuarios comunes. Y si no usamos ksmbd, mejor que ese módulo ni esté cargado.
+
+Este caso no tiene nada que ver con la IA. Es un error humano en el proceso de divulgación. Pero muestra lo mismo: la ventana entre que se conoce una falla y que existe un exploit ya es casi nula. A veces, directamente, ni llega a abrirse.
 
 ## Entonces, ¿estamos perdidos?
 
@@ -69,7 +83,7 @@ Eso sí, con dos reglas que para mí son innegociables:
 
 ### 1. Patchear según lo que se explota, no según la lista
 
-Con el doble de CVE por mes, patchear todo en orden es imposible. Google recomienda dejar el patcheo masivo sin prioridades y pasar a un *triage* guiado por inteligencia de amenazas[^2]. En la práctica: seguí el catálogo [KEV de CISA](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) (vulnerabilidades que se sabe que se están explotando) y los avisos de tu CERT, y lo que esté ahí va primero, sin discusión.
+Con el doble de CVEs por mes, patchear todo en orden es imposible. Google recomienda dejar el patcheo masivo sin prioridades y pasar a un *triage* guiado por inteligencia de amenazas[^2]. En la práctica: seguí el catálogo [KEV de CISA](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) (vulnerabilidades que se sabe que se están explotando) y los avisos de tu CERT, y lo que esté ahí va primero, sin discusión.
 
 
 ### 2. Achiquemos el tiempo de reacción
@@ -130,3 +144,7 @@ Por eso creo que nuestro trabajo no desaparece, sino que se vuelve más importan
 [^5]: Infobae, [Un único hacker usando IA comercial comprometió la ciberseguridad de 9 agencias de Gobierno](https://www.infobae.com/tecno/2026/05/25/un-unico-hacker-usando-ia-comercial-comprometio-la-ciberseguridad-de-9-agencias-de-gobierno/), 25 de mayo de 2026.
 [^6]: France 24, [Cinco claves de la crisis cibernética de PHP que encendió alarmas a nivel global](https://www.france24.com/es/ciencia-y-tecnolog%C3%ADas/20261021-cinco-claves-de-la-crisis-cibern%C3%A9tica-de-php-que-encendi%C3%B3-alarmas-a-nivel-global), 21 de octubre de 2026.
 [^7]: CSO Online, [OpenAI rolls out AI-led push to fix open-source software flaws](https://www.csoonline.com/article/4188321/openai-rolls-out-ai-led-push-to-fix-open-source-software-flaws.html).
+[^8]: Unit 42 (Palo Alto Networks), [Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619](https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619), actualizado el 23 de octubre de 2026.
+[^9]: CriptoNoticias, [Nueva vulnerabilidad es detectada en PHP](https://www.criptonoticias.com/seguridad-bitcoin/nueva-vulnerabilidad-detectada-php/), 23 de octubre de 2026.
+[^10]: Slashdot, vía Phoronix, [Several Linux Kernel Vulnerabilities Accidentally Posted To Public Kernel Mailing List](https://it.slashdot.org/story/26/10/22/1612227/several-linux-kernel-vulnerabilities-accidentally-posted-to-public-kernel-mailing-list), 22 de octubre de 2026.
+[^11]: pwn.watch, [Linux kernel: unpatched ZDI bug reports with repro details leaked to public LKML](https://pwn.watch/i/linux-kernel-zdi-reports-leaked-to-lkml).
