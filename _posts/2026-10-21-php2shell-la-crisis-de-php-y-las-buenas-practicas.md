@@ -33,7 +33,7 @@ Una ejecución remota de código sin autenticación significa que el atacante pu
 - **Leer tus archivos de configuración**, como el `wp-config.php` o el `.env`, donde suelen estar las contraseñas de la base de datos, las claves de APIs y las credenciales de correo.
 - **Llevarse la base de datos completa**: usuarios, mails, contraseñas hasheadas, pedidos, datos de pacientes. Lo que haya.
 - **Modificar tu sitio**: cambiar la portada (*defacement*), meter enlaces de spam o inyectar código que infecte o le robe datos a tus visitantes, por ejemplo en un formulario de pago.
-- **Dejar una puerta trasera** (una *webshell*) para volver cuando quiera, **aunque después actualices PHP**. Por eso parchear no alcanza si ya te vulneraron.
+- **Dejar una puerta trasera** (una *webshell*) para volver cuando quiera, **aunque después actualices PHP**. Por eso patchear no alcanza si ya te vulneraron.
 - **Usar tu servidor para sus propios fines**: mandar spam, minar criptomonedas, sumarlo a una botnet o atacar a otros desde tu IP.
 - **Saltar a otras máquinas**: si el servidor web puede ver el resto de tu red interna, se convierte en la puerta de entrada a todo lo demás.
 - **Intentar convertirse en root**: combinando esto con otra falla local, puede terminar con el control total de la máquina, cifrarla y pedirte un rescate (*ransomware*).
@@ -49,7 +49,7 @@ La reacción fue inmediata. Los casos más visibles fueron los que se anunciaron
 - **Bélgica:** se vio afectado el ministerio de Asuntos Exteriores, que aclaró que no hubo explotación.
 - **Países Bajos:** la federación de fútbol, los cinco principales partidos políticos, el Puerto de Rotterdam y sitios de hospitales se desconectaron por precaución.
 
-El **CERT-EU** fue claro: hay pruebas de concepto circulando y considera *probable* que ya se estén explotando. Su recomendación central fue "*patch affected assets immediately*" y, si no se puede parchear, **sacar el servicio de internet** hasta que esté corregido[^3].
+El **CERT-EU** fue claro: hay pruebas de concepto circulando y considera *probable* que ya se estén explotando. Su recomendación central fue "*patch affected assets immediately*" y, si no se puede patchear, **sacar el servicio de internet** hasta que esté corregido[^3].
 
 ## ¿Estoy afectada? Versiones corregidas
 
@@ -88,7 +88,7 @@ sudo systemctl restart php8.4-fpm   # y/o apache2
 
 **`php -v` no siempre es el PHP que sirve tu sitio.** Y actualizar el paquete en disco **no cambia el código que ya está cargado en memoria** en los *workers*. Si no reiniciás FPM o Apache, seguís corriendo la versión vulnerable[^4]. Para confirmar, mirá la versión desde un `phpinfo()` temporal, y borralo después.
 
-### Si no podés parchear ya mismo
+### Si no podés patchear ya mismo
 
 Hay mitigaciones temporales. **Reducen el riesgo pero no te dejan a salvo**: "*Only an update fully fixes these vulnerabilities*"[^3].
 
@@ -119,7 +119,7 @@ Las distros reciben los parches **antes del anuncio público** gracias a la divu
 
 ### 4. Tené un inventario
 
-¿Sabés cuántos servidores tuyos tienen PHP? ¿Y el NAS, el panel del hosting o ese appliance que "viene con una web de administración"? Mucho software trae PHP embebido sin que lo sepas. El CERT-EU recomienda revisar también los productos de terceros[^3]. No podés parchear lo que no sabés que existe.
+¿Sabés cuántos servidores tuyos tienen PHP? ¿Y el NAS, el panel del hosting o ese appliance que "viene con una web de administración"? Mucho software trae PHP embebido sin que lo sepas. El CERT-EU recomienda revisar también los productos de terceros[^3]. No podés patchear lo que no sabés que existe.
 
 ### 5. Defensa en profundidad
 
@@ -136,7 +136,7 @@ No es inmune, pero mod_php fue el escenario más expuesto en esta crisis. FPM ad
 
 ### 7. Logs, monitoreo y backups
 
-Si te vulneraron antes de parchear, necesitás poder darte cuenta. Revisá los logs de acceso buscando peticiones `multipart` raras o anómalamente grandes, procesos hijos inesperados de `php-fpm` o `apache2` y archivos nuevos en el *document root*. Y tené **backups probados y fuera del servidor**: un backup que nunca restauraste es solo una esperanza.
+Si te vulneraron antes de patchear, necesitás poder darte cuenta. Revisá los logs de acceso buscando peticiones `multipart` raras o anómalamente grandes, procesos hijos inesperados de `php-fpm` o `apache2` y archivos nuevos en el *document root*. Y tené **backups probados y fuera del servidor**: un backup que nunca restauraste es solo una esperanza.
 
 ### 8. Suscribite a las fuentes correctas
 
