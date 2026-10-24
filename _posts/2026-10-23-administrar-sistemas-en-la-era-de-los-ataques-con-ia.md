@@ -96,9 +96,9 @@ Casi todos los casos que conté empiezan en algo expuesto: un acceso remoto, un 
 
 ### 4. Inventario, inventario, inventario
 
-No podemos patchear lo que no sabemos que existe. Y ahora el inventario tiene que incluir algo nuevo: **la IA que usa nuestra organización**.
+No se puede patchear lo que no se sabe que existe. Y ahora el inventario tiene que incluir algo nuevo: **la IA que usan nuestras empresas u organizaciónes**.
 
-### 5. Tratá a tus herramientas de IA como infraestructura crítica
+### 5. Tratar las  herramientas de IA internas como infraestructura crítica
 
 Este punto es nuevo y creo que es el que más se subestima. Según Google, entre enero de 2025 y agosto de 2026 se registraron **2.076 vulnerabilidades en software relacionado con IA**. Solo en 2026 hubo 212 en servidores de inferencia como vLLM, Ollama o LiteLLM, y casi una cuarta parte venía de **APIs sin autenticación** o de SSRF[^2].
 
@@ -123,17 +123,26 @@ Si las víctimas mexicanas se enteraron por los errores del atacante, el problem
 
 ### 9. Backups probados y desconectados
 
-Lo de siempre, que nunca está de más: copias fuera del alcance de quien entre a nuestros servidores, y restauraciones probadas. Si todo lo demás falla, es lo que nos salva.
+Lo de siempre, que nunca está de más: copias fuera del alcance de quien entre a nuestros servidores, un equipo dedicado a probar los backups y restauraciones  antes de sacarlos del alcance. Si todo lo demás falla, es lo que nos salva.
 
 ## Para cerrar
 
-Después de leer todo esto, la conclusión a la que llegué es que la IA no inventó ningún problema nuevo. Las fallas ya estaban, los servidores sin patchear ya estaban, y las APIs abiertas a internet también. Lo que cambió es la **velocidad**: lo que antes llevaba semanas ahora lleva horas, y lo que antes requería un equipo ahora lo hace una sola persona con dos suscripciones.
+Después de leer todo esto, la conclusión a la que llegué es que la IA no inventó ningún problema nuevo. Las fallas ya estaban, los servidores sin patchear ya estaban, y las APIs abiertas a internet también. Lo que 
+cambió es la **velocidad**: lo que antes llevaba semanas ahora lleva horas, y lo que antes requería un equipo ahora lo hace una sola persona con dos suscripciones.
 
-El otro día, en una reunión técnica en la que estábamos analizando riesgos, se lo dije a uno de mis jefes: "Esta es la nueva normalidad. Vamos a tener que acostumbrarnos a salir a apagar incendios cada vez más rápido". Pero también le dije algo que sigo creyendo: en el fondo, esto nos obliga a hacer lo que veníamos postergando. Actualizar los sistemas y reducir la **deuda técnica** que acumulamos durante años y años.
+El otro día, en una reunión técnica en la que estábamos analizando riesgos, se lo dije a uno de mis jefes: "Esta es la nueva normalidad. Vamos a tener que acostumbrarnos a salir a apagar incendios cada vez más 
+rápido". 
 
-Porque si lo pensamos, casi todos los casos de este post se aprovechan de lo mismo: el servidor con la versión vieja "porque anda", el servicio expuesto que alguien abrió para una prueba, el script que nadie entiende y que nadie tampoco se anima a tocar. El arreglo provisorio que queda ahí para siempre ya no va más. Cuando un exploit tarda cuatro días en aparecer, cada atajo que tomamos es una puerta que le dejamos abierta a alguien con una IA y tiempo libre. Ahora hay que actuar de manera responsable de verdad.
+Por que hay algo de lo que estoy convencida: esta nueva normalidad, por ponerlo de algún modo,  nos obliga a hacer lo que se suele postergar en la vasta mayoría de las empresas y organizaciones: 
+Actualizar los sistemas y reducir la **deuda técnica** que se acumuló  durante años y años.
 
-Por eso creo que nuestro trabajo no desaparece, sino que se vuelve más importante. Las buenas prácticas de siempre pasan a ser el piso, y la IA puede ser la herramienta que nos permita sostenerlas al ritmo que se necesita. Usémosla para leer los logs, revisar las configuraciones y priorizar los parches, pero sin perder el criterio propio ni el ojo crítico. Al fin y al cabo, alguien tiene que seguir sosteniendo el matafuegos.
+Porque si lo pensamos, casi todos los casos de este post se aprovechan de lo mismo: el servidor con la versión vieja "porque anda", el servicio expuesto que alguien abrió para una prueba, el script que nadie entiende 
+y que nadie tampoco se anima a tocar. 
+El arreglo provisorio que queda ahí para siempre ya no va más. Cuando un exploit tarda cuatro días en aparecer, cada atajo que tomamos es una puerta que le dejamos abierta a 
+alguien con una IA y tiempo libre. Ahora hay que actuar de manera responsable de verdad.
+
+Por eso creo que nuestro trabajo no desaparece, sino que se vuelve más importante. Las buenas prácticas de siempre ahora pasan a ser el piso, y la IA puede ser la herramienta que nos permita sostenerlas al ritmo que se 
+necesita. Usémosla para leer los logs, revisar las configuraciones y priorizar los parches, pero sin perder el criterio propio ni el ojo crítico. Al fin y al cabo, alguien tiene que seguir sosteniendo el matafuegos.
 
 ---
 
