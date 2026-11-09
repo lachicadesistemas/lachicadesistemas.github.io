@@ -3,6 +3,7 @@ layout: post
 title: "Ese TV box barato que viste en Mercado Libre puede estar trabajando para otro"
 subtitle: "1,3 millones de cajitas Android convertidas en proxies: no era paranoia"
 tags: [seguridad, android, iot, privacidad, botnets]
+author: Alexia
 ---
 
 Hace unas semanas estaba mirando TV boxes con Android en Mercado Libre. La diferencia de precio era abismal: por un lado los equipos de marcas conocidas y por el otro una cantidad enorme de TV boxes genéricas, con nombres raros, "4K", "8K", "Android 13", 4 GB de RAM, 64 GB de almacenamiento... a una fracción del precio. Y en algún momento me surgió la duda: **¿qué tan seguras son estas cosas?** ¿Quién las fabrica? ¿Quién escribió el firmware? ¿Quién lo actualiza?
